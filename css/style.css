@@ -358,6 +358,7 @@ hr {
 }
 
 .team h5 {
+	height: 2em;
 	margin-bottom: 10px;
 }
 
@@ -370,7 +371,7 @@ hr {
 }
 
 .avatar img{
-	height: 80px;
+	height: 60px;
 	margin: auto;
 }
 
@@ -507,7 +508,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 .widget-map {
-	margin: auto;
+	margin: 0 auto 20px;
 }
 
 .widget-map img {
