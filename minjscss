@@ -1,0 +1,6 @@
+cat css/bootstrap.min.css css/animate.css css/style.css css/color.css > css/combined.css
+yuicompressor -o css/style.min.css css/combined.css
+rm css/combined.css
+cat js/bootstrap.min.js js/jquery.easing.min.js js/jquery.scrollTo.js js/wow.min.js js/custom.js > js/combined.js
+yuicompressor -o js/custom.min.js js/combined.js
+rm js/combined.js
