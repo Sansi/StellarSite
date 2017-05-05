@@ -33,7 +33,7 @@
               <img class="six columns" src="../images/system.png"/>
           </div>
             <h2 id="简介">简介</h2>
-            <p>Stellar Wi-Fi 应用无线控制三思智能球泡灯，开、关无级调节亮度，可选择自己喜欢的颜色。灯泡内置了20种预设场景。您还可以通过麦克风（仅在 iOS 上）或是曲库中的歌曲与灯泡互动。</p>
+            <p>Stellar Wi-Fi 应用无线控制三思智能球泡灯，开、关无级调节亮度，可选择自己喜欢的颜色。灯泡内置了8种预设场景。您还可以通过曲库中的歌曲与灯泡互动。</p>
 
             <h2 id="获取应用">获取应用</h2>
             <p>
@@ -46,44 +46,58 @@
               <img class="three columns" src="../images/qrcode_wifi_appstore.png"/>
               <img class="three columns" src="../images/qrcode_wifi_sansi.png"/>
             </div>
-
-            <h2 id="本地控制">本地控制</h2>
+            <br/>
+            <h2 id="安装设备">安装设备</h2>
+            <p>将灯泡拧入灯座，打开电源开关。</p>
+            <img src="../images/install-bulb.png"/>
+            <h2 id="ios操作简介">ios操作简介</h2>
+            <h4 id = "添加设备至Wifi">添加设备至Wifi</h4>
             <ol>
-              <li>将灯泡拧入灯座，打开电源开关。</li>
-              <img src="../images/install-bulb.png"/>
               <li>在手机设置无线局域网界面中找到灯泡的Wi-Fi网络，（全彩灯泡的网络名称“SLRG B******”）,并确认连接成功。</li>
               <div class="row">
                 <img class="six columns" src="images/connect-wifi-ios.png"/>
-                <img class="six columns" src="images/connect-wifi-android.png"/>
               </div>
-              <li>打开Stellar Wi-Fi应用。它会自动搜索灯泡，连接后的灯泡会出现在类列表中 (显示为它的 MAC地址)。</li>
+              <li>打开Stellar Wi-Fi应用。它会自动搜索灯泡，连接后的灯泡会出现在类列表中 (默认显示为SSLedLampDefaultName)。</li>
               <div class="row">
                 <img class="six columns" src="images/search-ios.png"/>
-                <img class="six columns" src="images/search-android.png"/>
               </div>
-              <li>点击灯泡的MAC地址进入控制界面。</li>
+              <li>点击"点击加入无线按钮"，输入你想加入WiFi名称及其密码，最后点击"加入当前wifi"，这个过程大约需要30s。</li>
               <div class="row">
-                <img class="six columns" src="images/control-ios.png"/>
-                <img class="six columns" src="images/control-android.png"/>
+                <img class="six columns" src="images/search-ios-2.png"/>
               </div>
-              <li>音乐模式（颜色随音乐而动）<br/>点击屏幕底部音符按钮，搜索喜欢的音乐，感受光随音乐而动的美。</li>
+              <li>当提示链接成功后，返回手机设置界面，切换wifi，在回Stellar WiFi，就能找到在列表中找到灯啦。(如果多次刷新列表都没有找到灯，请重新尝试上述步骤)</li>
               <div class="row">
-                <img class="six columns" src="images/music-ios.png"/>
-                <img class="six columns" src="images/music-android.png"/>
-              </div>
-              <li>麦克风模式（仅在 iOS 上）<br/>点击屏幕底部麦克风按钮，通过声音可与灯泡进行互动。</li>
-              <div class="row">
-                <img class="six columns" src="images/mic-ios.png"/>
-              </div>
-              <li>场景模式<br/>点击屏幕底部场景按钮，感受不同颜色不同频率的渐变。</li>
-              <div class="row">
-                <img class="six columns" src="images/mode-ios.png"/>
-                <img class="six columns" src="images/mode-android.png"/>
+                <img class="six columns" src="images/search-ios-4.png"/>
+                <img class="six columns" src="images/search-ios-5.png"/>
               </div>
             </ol>
+            <h4 id = "游客模式">游客模式</h4>
+            <p>
+              游客模式是指用户在未登录的情况下使用stellar Wifi，用户只能控制已经被添加到当前wifi中的灯。<br/>通过侧边栏的退出登录，并在弹出的登录界面中选择游客模式进入该模式，该模式下组控功能不可用。
+            </p>
+            <div class="row">
+              <img class="six columns" src="images/login-ios.png"/>
+              <img class="six columns" src="images/menu-tourist-ios.png"/>
+            </div>
+            <ol>
+              <li>点击灯泡进入控制界面。如果是彩色灯则显示彩色控制界面，如果是色温灯则显示色温控制界面</li>
+              <div class="row">
+                <img class="six columns" src="images/control-ios.png"/>
+                <img class="six columns" src="images/control-ios-cct.png"/>
+              </div>
+              <li>音乐模式（颜色随音乐而动，彩色灯特有）<br/>点击左上角的音乐选择按钮，选择喜欢的音乐，感受光随音乐而动的美。</li>
+              <div class="row">
+                <img class="six columns" src="images/music-ios.png"/>
+              </div>
+              <li>场景模式（彩色灯特有）<br/>场景模式为您提供了8种不同的场景模式，点击选择不同场景，感受不同颜色不同频率的渐变。</li>
+              <div class="row">
+                <img class="six columns" src="images/mode-ios.png"/>
+              </div>
+              <li>设置</li>
+            </ol>
 
-            <h2 id="连接多个灯泡">连接多个灯泡</h2>
-            <p>若要同时连接多个灯泡，需将它们加入同一个Wi-Fi网络中，比如您家的路由器中</p>
+            <h4 id="登录模式">登录模式</h4>
+            <p>登录模式是指用户在登录模式下使用Stellar Wifi,</p>
             <ol>
               <li>对每个您希望连接的灯泡重复如下操作：</li>
               <ol>
