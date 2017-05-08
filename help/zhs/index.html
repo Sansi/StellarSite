@@ -25,7 +25,7 @@
         function hideNav()
         {
             var box1 =  document.getElementById("luxbar-checkbox");
-            if (box1.type == "checkbox"){
+            if (box1.type === "checkbox"){
                 box1.checked = false;
 
             }
@@ -39,23 +39,25 @@
         <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
             <ul class="luxbar-navigation">
                 <li class="luxbar-header">
-                    <a href="#" class="luxbar-brand">Stellar</a>
+                    <a href="#home" class="luxbar-brand">Stellar Wi-FiStellar Wi-Fi 使用说明</a>
                     <label class="luxbar-hamburger luxbar-hamburger-doublespin"
                            id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
                 </li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#home">首页</a></li>
                 <li class="luxbar-item" onclick="hideNav()"><a href="#简介">简介</a></li>
                 <li class="luxbar-item" onclick="hideNav()"><a href="#获取应用">获取应用</a></li>
                 <li class="luxbar-item" onclick="hideNav()"><a href="#安装设备">安装设备</a></li>
                 <li class="luxbar-item" onclick="hideNav()"><a href="#ios操作简介">ios操作简介</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#灯泡恢复出厂设置步骤">灯泡恢复出厂设置步骤</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#运行环境需求">运行环境需求</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#联系我们">联系我们</a></li>
             </ul>
         </div>
     </header>
-    <div class="row">
+    <div class="row" id="home">
         <!-- <div class="eight columns" style="margin-top: 25%"> -->
         <article class="post">
             <header class="post-header">
-                <h1 id="home" class="post-title">Stellar Wi-Fi 快速安装指南</h1>
+                <h1 class="post-title"></h1>
 
             </header>
             <section class="post-content">
@@ -88,7 +90,8 @@
                 <img src="../images/install-bulb.png"/>
 
                 <h2 id="ios操作简介">ios操作简介</h2>
-                <h4 id="添加设备至Wifi">添加设备至Wifi</h4>
+
+                <h4 id="1.添加设备至Wifi">添加设备至Wifi</h4>
                 <ol>
                     <li>在手机设置无线局域网界面中找到灯泡的Wi-Fi网络，（全彩灯泡的网络名称“SLRG B******”）,并确认连接成功。</li>
                     <div class="row">
@@ -102,16 +105,16 @@
                     <div class="row">
                         <img class="six columns" src="images/search-ios-2.png"/>
                     </div>
-                    <li>当提示链接成功后，返回手机设置界面，切换wifi，在回Stellar WiFi，就能找到在列表中找到灯啦。(如果多次刷新列表都没有找到灯，请重新尝试上述步骤)</li>
+                    <li>当提示链接成功后，返回手机设置界面，切换wifi，在回Stellar Wi-Fi，就能找到在列表中找到灯啦。(如果多次刷新列表都没有找到灯，请重新尝试上述步骤)</li>
                     <div class="row">
                         <img class="six columns" src="images/search-ios-4.png"/>
                         <img class="six columns" src="images/search-ios-5.png"/>
                     </div>
                 </ol>
-                <h4 id="游客模式">游客模式</h4>
+                <h4 id="游客模式">2.游客模式</h4>
 
                 <p>
-                    游客模式是指用户在未登录的情况下使用stellar Wifi，用户只能控制已经被添加到当前wifi中的灯。<br/>通过侧边栏的退出登录，并在弹出的登录界面中选择游客模式进入该模式，该模式下组控功能不可用。
+                    游客模式是指用户在未登录的情况下使用Stellar Wi-Fi，用户只能控制已经被添加到当前wifi中的灯。<br/>通过侧边栏的退出登录，并在弹出的登录界面中选择游客模式进入该模式，该模式下组控功能不可用。
                 </p>
 
                 <div class="row">
@@ -153,14 +156,18 @@
                     </div>
                 </ol>
 
-                <h4 id="登录模式">登录模式</h4>
+                <h4 id="登录模式">3.登录模式</h4>
 
-                <p>登录模式是指用户在登录模式下使用Stellar Wifi,在登录模式下，可以使用组控和Alexa功能</p>
+                <p>登录模式是指用户在登录模式下使用Stellar Wi-Fi,在登录模式下，可以使用组控和Alexa功能</p>
                 <ol>
-                    <li>登录<br/>在侧边栏点击登录按钮，然后输入账号名及密码点击登录即可（登录后，Stellar Wifi会自动将当前wifi下找到的灯添加到账号下，多刷新几次即可找到灯）。</li>
+                    <li>登录<br/>在侧边栏点击登录按钮，然后输入账号名及密码点击登录即可（登录后，Stellar Wi-Fi会自动将当前wifi下找到的灯添加到账号下，多刷新几次即可找到灯）。</li>
                     <div class="row">
                         <img class="six columns" src="images/login-ios.png"/>
                         <img class="six columns" src="images/remote-main-ios.png"/>
+                    </div>
+                    <li>连接亚马逊（Alexa功能）<br/>在侧边栏点击连接亚马逊按钮，后点击确认关联按钮，再根据亚马逊的提示完成操作，即可将你的账号关联至你的亚马逊账号，这要你就可以通过语音来控制你的灯啦。</li>
+                    <div class="row">
+                        <img class="six columns" src="images/remote-Alexa-ios.png"/>
                     </div>
                     <li>添加组<br/>点击右上角加号，输入组名，选择设备即可添加新的分组（一个设备只能被添加到一个组中，如果选择别的组中的设备，则会将该设备从原有分组中移除）。</li>
                     <div class="row">
@@ -169,6 +176,15 @@
                         <img class="six columns" src="images/remote-group-ios.png"/>
                     </div>
                     <li>操作组<br/>点击一个组，进入操作组界面，操作组界面包含颜色控制，色温控制，场景</li>
+                    <div class="row">
+                        <img class="six columns" src="images/remote-control-rgb-ios.png"/>
+                        <img class="six columns" src="images/remote-control-cct-ios.png"/>
+                        <img class="six columns" src="images/remote-control-scene-ios.png"/>
+                    </div>
+                    <li>编辑组<br/>在操作界面中点击右上角编辑按钮进入编辑组界面，在编辑组界面中，你可以修改组的名字以及调整组中的设备。</li>
+                    <div class="row">
+                        <img class="six columns" src="images/remote-group-set-ios.png"/>
+                    </div>
                 </ol>
 
                 <h2 id="灯泡恢复出厂设置步骤">灯泡恢复出厂设置步骤</h2>
