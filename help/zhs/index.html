@@ -25,7 +25,10 @@
         function hideNav()
         {
             var box1 =  document.getElementById("luxbar-checkbox");
-            box1.checked = false;
+            if (box1.type == "checkbox"){
+                box1.checked = false;
+
+            }
         }
     </script>
 </head>
@@ -40,11 +43,11 @@
                     <label class="luxbar-hamburger luxbar-hamburger-doublespin"
                            id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
                 </li>
-                <li class="luxbar-item dropdown" onclick="hideNav()"><a href="#home">首页</a></li>
-                <li class="luxbar-item dropdown" onclick="hideNav()"><a href="#简介">简介</a></li>
-                <li class="luxbar-item dropdown" onclick="hideNav()"><a href="#获取应用">获取应用</a></li>
-                <li class="luxbar-item dropdown" onclick="hideNav()"><a href="#安装设备">安装设备</a></li>
-                <li class="luxbar-item dropdown" onclick="hideNav()"><a href="#ios操作简介">ios操作简介</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#home">首页</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#简介">简介</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#获取应用">获取应用</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#安装设备">安装设备</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#ios操作简介">ios操作简介</a></li>
             </ul>
         </div>
     </header>
@@ -165,6 +168,7 @@
                         <img class="six columns" src="images/remote-group-add-ios.png"/>
                         <img class="six columns" src="images/remote-group-ios.png"/>
                     </div>
+                    <li>操作组<br/>点击一个组，进入操作组界面，操作组界面包含颜色控制，色温控制，场景</li>
                 </ol>
 
                 <h2 id="灯泡恢复出厂设置步骤">灯泡恢复出厂设置步骤</h2>
