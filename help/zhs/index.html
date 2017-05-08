@@ -19,22 +19,41 @@
     <!--<link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
     <!-- Favicon
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="../../image/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="../../img/favicons/favicon-32x32.png">
+    <link rel="stylesheet" href="../css/luxbar.min.css">
+    <script>
+        function hideNav()
+        {
+            var box1 =  document.getElementById("luxbar-checkbox");
+            box1.checked = false;
+        }
+    </script>
 </head>
 <body>
 <div class="container">
+    <header id="luxbar" class="luxbar-fixed">
+        <input type="checkbox" style="display:none" class="luxbar-checkbox" id="luxbar-checkbox"/>
+        <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
+            <ul class="luxbar-navigation">
+                <li class="luxbar-header">
+                    <a href="#" class="luxbar-brand">Stellar</a>
+                    <label class="luxbar-hamburger luxbar-hamburger-doublespin"
+                           id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+                </li>
+                <li class="luxbar-item dropdown" onclick="hideNav()"><a href="#home">首页</a></li>
+                <li class="luxbar-item dropdown" onclick="hideNav()"><a href="#简介">简介</a></li>
+                <li class="luxbar-item dropdown" onclick="hideNav()"><a href="#获取应用">获取应用</a></li>
+                <li class="luxbar-item dropdown" onclick="hideNav()"><a href="#安装设备">安装设备</a></li>
+                <li class="luxbar-item dropdown" onclick="hideNav()"><a href="#ios操作简介">ios操作简介</a></li>
+            </ul>
+        </div>
+    </header>
     <div class="row">
         <!-- <div class="eight columns" style="margin-top: 25%"> -->
         <article class="post">
             <header class="post-header">
                 <h1 id="home" class="post-title">Stellar Wi-Fi 快速安装指南</h1>
-                <ul>
-                    <li class="active"><a href="#home">首页</a></li>
-                    <li><a href="#简介">简介</a></li>
-                    <li><a href="#获取应用">获取应用</a></li>
-                    <li><a href="#安装设备">安装设备</a></li>
-                    <li><a href="#ios操作简介">ios操作简介</a></li>
-                </ul>
+
             </header>
             <section class="post-content">
                 <div class="row">
@@ -110,9 +129,10 @@
                     <div class="row">
                         <img class="six columns" src="images/mode-ios.png"/>
                     </div>
-                    <li>倒计时功能（版本>2.0）<br>点击控制住界面上开关按钮右边的倒计时按钮</li>
+                    <li>倒计时功能（版本>2.0）<br>点击控制住界面上开关按钮右边的倒计时按钮（如果没有这个按钮，请检查设备软件版本是否为最新，如果不是，请更新），选择时间，选择动作，点击开始按钮即可启动倒计时，当然也可以点击取消来取消倒计时。</li>
                     <div class="row">
-                        <img class="six columns" src="images/mode-ios.png"/>
+                        <img class="six columns" src="images/countDown_1-ios.png"/>
+                        <img class="six columns" src="images/countDown_2-ios.png"/>
                     </div>
                     <li>设置<br/>在设置界面中，你可以对等进行如下操作：<br/>
                         <ul>
@@ -124,7 +144,7 @@
                             <li>重置灯（如果处于登录状态，则会将灯从列表中删除），重置后，灯会闪烁，后会恢复出厂设置（脱离原有wifi）。</li>
                         </ul>
                     </li>
-                    <div>
+                    <div class="row">
                         <img class="six columns" src="images/set-ios.png"/>
                         <img class="six columns" src="images/update-ios.png"/>
                     </div>
