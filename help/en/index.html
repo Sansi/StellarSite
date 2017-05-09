@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Basic Page Needs
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
@@ -16,142 +16,208 @@
     <link rel="stylesheet" href="../css/skeleton.css">
     <!-- Favicon
       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="../../image/favicons/favicon-32x32.png">
-  </head>
-  <body>
-    <!-- Primary Page Layout
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
-      <div class="row">
+    <link rel="icon" type="image/png" href="../../img/favicons/favicon-32x32.png">
+    <link rel="stylesheet" href="../css/luxbar.min.css">
+</head>
+<body>
+<!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+    <header id="luxbar" class="luxbar-fixed">
+        <input type="checkbox" style="display:none" class="luxbar-checkbox" id="luxbar-checkbox"/>
+        <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
+            <ul class="luxbar-navigation">
+                <li class="luxbar-header">
+                    <a href="#home" class="luxbar-brand">Stellar Wi-Fi Instructions</a>
+                    <label class="luxbar-hamburger luxbar-hamburger-doublespin"
+                           id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+                </li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#Introduction">Introduction</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#Get Application">Get Application</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#Install Equipment">Install Equipment</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#iOS Instructions">iOS Instructions</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#Restore Factory Settings">Restore Factory Settings</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#System Requirements">System Requirements</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#Contact Us">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="row" id="home">
         <!-- <div class="eight columns" style="margin-top: 25%"> -->
         <article class="post">
-          <header class="post-header">
-            <h1 class="post-title">Stellar Wi-Fi Quick Start Guide</h1>
-          </header>
-          <section class="post-content">
-            <div class="row">
-              <img class="six columns" src="../images/system.png"/>
-          </div>
-            <h2 id="Get the App">1. Get the App</h2>
-            <p>
-              iOS users may search for "Stellar Wi-Fi" in the App Store or scan the first QR code below.
-            </p>
-            <p>
-              Android users may search for "Stellar Wi-Fi" in the Google Play Store or scan the second QR code below.
-            </p>
-            <div class="row">
-              <img class="three columns" src="../images/qrcode_wifi_appstore.png"/>
-              <img class="three columns" src="../images/qrcode_wifi_googleplay.png"/>
-            </div>
+            <header class="post-header">
+                <h1 class="post-title"></h1>
 
-            <h2 id="Local Control">2. Local Control</h2>
-            <h3>Connect to the bulb</h3>
-            <ol>
-              <li>Install the LED bulb and turn it on.</li>
-              <img src="../images/install-bulb.png"/>
-              <li>Find the bulb’s Wi-Fi network (name SLRGB*******), and connect. Please confirm the connection is successfully established by waiting until the Wi-Fi icon appears in the status bar at the top. </li>
-              <div class="row">
-                <img class="six columns" src="images/connect-wifi-ios.png"/>
-                <img class="six columns" src="images/connect-wifi-android.png"/>
-              </div>
-              <li>Open “Stellar Wi-Fi”, select "Tourist Login" ,pull down to refresh, find your bulb in the type list. (If the bulb can’t be found, please exit the app and clear it from background running apps, then try again.)</li>
-              <div class="row">
-                <img class="six columns" src="images/search-ios.png"/>
-                <img class="six columns" src="images/search-android.png"/>
-              </div>
-              <li>Tap to enter the control interface for the bulb's color and brightness. If you have a RGB bulb, you will see "RGB", "Music" and "Scene" control tabs. If you have a white bulb, you will see "While" control tab. If you are controlling a group of bulbs with both types existing, all tabs will be shown.</li>
-              <div class="row">
-                <img class="six columns" src="images/control-ios.png"/>
-                <img class="six columns" src="images/control-android.png"/>
-              </div>
-              <li>Music Mode<br/>For music mode, switch to the Music tab. On an iPhone, choose a song by tapping the magnifier icon. Only songs in Apple Music (iTunes library) are supported. On an Android phone, tap "Choose Local Music" to load a song from your phone storage to get started.</li>
-              <div class="row">
-                <img class="six columns" src="images/music-ios.png"/>
-                <img class="six columns" src="images/music-android.png"/>
-              </div>
-            </ol>
+            </header>
+            <section class="post-content">
+                <div class="row">
+                    <img class="six columns" src="../images/system.png"/>
+                </div>
+                <h2 id="Introduction">Introduction</h2>
 
-            <h2 id="Connect Multiple Bulbs">Multiple Bulbs Control</h2>
-            <p>You need to join all your bulbs into the same Wi-Fi network, e.g. your home router.</p>
-            <ol>
-              <li>Connect the bulb, enter into your bulb’s interface, switch to "Config"" tab.</li>
-              <div class="row">
-                <img class="six columns" src="images/set-ios.png"/>
-                <img class="six columns" src="images/set-android.png"/>
-              </div>
-              <li>This opens the LED bulb configuration page. Rename the bulb if necessary.</li>
-              <div class="row">
-                <img class="six columns" src="images/set-ios-name.png"/>
-                <img class="six columns" src="images/set-android-name.png"/>
-              </div>
-              <li>Join your bulb into your Wi-Fi, set Wi-Fi Network including name and password.</li>
-              <div class="row">
-                <img class="six columns" src="images/set-ios-wlan.png"/>
-                <img class="six columns" src="images/set-android-wlan.png"/>
-              </div>
-              <li>After renaming your bulb (if necessary) and setting your Wi-Fi, the bulb will restart and connect to the new network. You can now continue to add other bulbs.</li>
-              <li>Join your phone into the same Wi-Fi network.</li>
-              <li>Open the “Stellar Wi-Fi” and it will search all the bulbs in the network.</li>
-              <li>To create a new group, click "Add" button, and name the new group.</li>
-              <li>Click "Edit", press on right of the bulb name and drag bulbs into one group.</li>
-              <li>Click the group name, enter into the group control interface.Then you can control multiple bulbs.</li>
-            </ol>
+                <p>Stellar Wi-Fi uses the wireless control Sansi smart bulbs on, off, stepless brightness or choose your favorite color. The bulb has eight built-in scenarios. You can also interact with the bulb through songs in the library.</p>
 
-            <h2 id="Remote Control">Remote Control</h2>
-            <ol>
-              <li>Click the menu on the left side to switch the control interface.</li>
-              <div class="row">
-                <img class="six columns" src="images/menu-ios.png"/>
-                <img class="six columns" src="images/menu-android.jpg"/>
-              </div>
-              <li>Select “Remote Control” and a “Log in” interface will display</li>
-              <div class="row">
-                <img class="six columns" src="images/login-ios.png"/>
-                <img class="six columns" src="images/login-android.png"/>
-              </div>
-              <li>After registration, enter your email address and password to log in.</li>
-              <li>For the first time, you need connect the bulb with your account, then next time you can remotely control your bulb with your phone even they are connected to different networks.</li>
-              <li>Then click “Remote Control” again, a list of bulbs in the network will display.</li>
-              <li>Click the bulb, enter into the control interface, then you can control.</li>
-              <li>One bulb can be remotely controlled by only one account, if you want to remotely control the bulb with another account, please delete the bulb on remote control interface from your initial account.</li>
-            </ol>
+                <h2 id="Get Application">Get Application</h2>
 
-            <h2 id="Restore Factory Settings">Restore Factory Settings</h2>
-            <ol>
-              <li>Turn off the bulb and wait for 20 seconds</li>
-              <li>Repeat the following operation for 3 times.</li>
-              <ol>
-                <li>Turn on the bulb for 5 seconds.</li>
-                <li>Turn off the bulb for 5 seconds. </li>
-              </ol>
-              <li>Turn on the bulb for the 4th time and wait for 10 seconds. The bulb will now restore the factory settings. It will change colors according to: slow <font color="red">red</font> → slow <font color="green">green</font> → slow <font color="blue">blue</font> → <font color=#FFDEAD>warm white</font> and then enter Wi-Fi access point mode.</li>
-            </ol>
+                <p>
+                    iOS users may search for "Stellar Wi-Fi" in the App Store or scan the first QR code below.
+                </p>
 
-            <h2 id="System Requirements">System Requirements</h2>
-            <p>
-              Stellar Wi-fi runs on the following devices:
-            </p>
-            <ol>
-              <li>iOS devices running iOS 8.0+</li>
-              <li>Android devices running Android 4.2+</li>
-            </ol>
-            <p>
-              You also need at least one Sansi Smart LED bulb to get started.
-            </p>
+                <p>
+                    Android users may search for "Stellar Wi-Fi" in the Google Play Store or scan the second QR code below.
+                </p>
 
-            <h2 id="Contact Us">Contact Us</h2>
-            <p>
-              For technical support, please contact <a href="mailto:Stellar@sansitech.com?subject=Stellar Help">stellar@sansitech.com</a>
-            </p>
-          </section>
-          <footer>
-            <p>Last updated on Nov 21, 2016.</p>
-          </footer>
+                <div class="row">
+                    <img class="three columns" src="../images/qrcode_wifi_appstore.png"/>
+                    <img class="three columns" src="../images/qrcode_wifi_sansi.png"/>
+                </div>
+                <br/>
+
+                <h2 id="Install Equipment">Install Equipment</h2>
+
+                <p>Install the LED bulb and turn it on.</p>
+                <img src="../images/install-bulb.png"/>
+
+                <h2 id="iOS Instructions">iOS Instructions</h2>
+
+                <h4 id="Add device to router">1.Add device to router</h4>
+                <ol>
+                    <li>Find the bulb’s Wi-Fi network (name SLRGB*******), and connect. Please confirm the connection is successfully established by waiting until the Wi-Fi icon appears in the status bar at the top.</li>
+                    <div class="row">
+                        <img class="six columns" src="images/connect-wifi-ios.png"/>
+                    </div>
+                    <li>Open the Stellar Wi-Fi application. It will automatically search for the light bulbs, and the connected bulb will appear in the class list (the bulb is default shown as SSLedLampDefaultName).</li>
+                    <div class="row">
+                        <img class="six columns" src="images/search-ios.png"/>
+                    </div>
+                    <li>Click "click to join the wireless button", enter the WiFi name and its password, and finally click "join the current wifi", this process takes about 30s.</li>
+                    <div class="row">
+                        <img class="six columns" src="images/search-ios-2.png"/>
+                    </div>
+                    <li>When the APP prompts you to link successfully, return to the phone settings interface, switch wifi, and then return to Stellar Wi-Fi, you can find in the list to find the lights friends. (If you have refreshed the list many times but haven't find any lights, please try the above steps again).</li>
+                    <div class="row">
+                        <img class="six columns" src="images/search-ios-4.png"/>
+                        <img class="six columns" src="images/search-ios-5.png"/>
+                    </div>
+                </ol>
+                <h4 id="Tourist Mode">2.Tourist Mode</h4>
+
+                <p>
+                    The visitor mode means that the user uses Stellar Wi-Fi without logging in, and the user can only control the lights that have been added to the current wifi. The user enters the mode through the "exit registration" of the sidebar and selects the visitor mode in the pop-up login interface, in which the group control function is not available in this mode.
+                </p>
+
+                <div class="row">
+                    <img class="six columns" src="images/login-ios.png"/>
+                    <img class="six columns" src="images/menu-tourist-ios.png"/>
+                </div>
+                <ol>
+                    <li>Click the light bulb to enter the control interface. If it is a color light is displayed color control interface, if it is color temperature light shows the color temperature control interface</li>
+                    <div class="row">
+                        <img class="six columns" src="images/control-ios.png"/>
+                        <img class="six columns" src="images/control-ios-cct.png"/>
+                    </div>
+                    <li>Music mode (color changed with music, color lights only)<br/>Click on the upper left corner of the music selection button, select your favorite music, and then feel the beauty which lights shining with the music.</li>
+                    <div class="row">
+                        <img class="six columns" src="images/music-ios.png"/>
+                    </div>
+                    <li>场景模式（彩色灯特有）<br/>场景模式为您提供了8种不同的场景模式，点击选择不同场景，感受不同颜色不同频率的渐变。</li>
+                    <div class="row">
+                        <img class="six columns" src="images/mode-ios.png"/>
+                    </div>
+                    <li>倒计时功能（版本>2.0）<br>点击控制住界面上开关按钮右边的倒计时按钮（如果没有这个按钮，请检查设备软件版本是否为最新，如果不是，请更新），选择时间，选择动作，点击开始按钮即可启动倒计时，当然也可以点击取消来取消倒计时。
+                    </li>
+                    <div class="row">
+                        <img class="six columns" src="images/countDown_1-ios.png"/>
+                        <img class="six columns" src="images/countDown_2-ios.png"/>
+                    </div>
+                    <li>设置<br/>在设置界面中，你可以对等进行如下操作：<br/>
+                        <ul>
+                            <li>修改灯的名字；</li>
+                            <li>切换灯的wifi（此功能仅在当前wifi下能找到该灯时可用）；</li>
+                            <li>
+                                如果灯的软件版本不是最新的，可以对灯进行固件升级，如果发现更新固件时间较长，请点击取消后重试，如果还是不行，请重置该灯后直接连接灯进行尝试（此功能仅在当前wifi下能找到该灯时可用）；
+                            </li>
+                            <li>重置灯（如果处于登录状态，则会将灯从列表中删除），重置后，灯会闪烁，后会恢复出厂设置（脱离原有wifi）。</li>
+                        </ul>
+                    </li>
+                    <div class="row">
+                        <img class="six columns" src="images/set-ios.png"/>
+                        <img class="six columns" src="images/update-ios.png"/>
+                    </div>
+                </ol>
+
+                <h4 id="登录模式">3.登录模式</h4>
+
+                <p>登录模式是指用户在登录模式下使用Stellar Wi-Fi,在登录模式下，可以使用组控和Alexa功能</p>
+                <ol>
+                    <li>登录<br/>在侧边栏点击登录按钮，然后输入账号名及密码点击登录即可（登录后，Stellar Wi-Fi会自动将当前wifi下找到的灯添加到账号下，多刷新几次即可找到灯）。</li>
+                    <div class="row">
+                        <img class="six columns" src="images/login-ios.png"/>
+                        <img class="six columns" src="images/remote-main-ios.png"/>
+                    </div>
+                    <li>连接亚马逊（Alexa功能）<br/>在侧边栏点击连接亚马逊按钮，后点击确认关联按钮，再根据亚马逊的提示完成操作，即可将你的账号关联至你的亚马逊账号，这要你就可以通过语音来控制你的灯啦。
+                    </li>
+                    <div class="row">
+                        <img class="six columns" src="images/remote-Alexa-ios.png"/>
+                    </div>
+                    <li>添加组<br/>点击右上角加号，输入组名，选择设备即可添加新的分组（一个设备只能被添加到一个组中，如果选择别的组中的设备，则会将该设备从原有分组中移除）。</li>
+                    <div class="row">
+                        <img class="six columns" src="images/remote-add-ios.png"/>
+                        <img class="six columns" src="images/remote-group-add-ios.png"/>
+                        <img class="six columns" src="images/remote-group-ios.png"/>
+                    </div>
+                    <li>操作组<br/>点击一个组，进入操作组界面，操作组界面包含颜色控制，色温控制，场景</li>
+                    <div class="row">
+                        <img class="six columns" src="images/remote-control-rgb-ios.png"/>
+                        <img class="six columns" src="images/remote-control-cct-ios.png"/>
+                        <img class="six columns" src="images/remote-control-scene-ios.png"/>
+                    </div>
+                    <li>编辑组<br/>在操作界面中点击右上角编辑按钮进入编辑组界面，在编辑组界面中，你可以修改组的名字以及调整组中的设备。</li>
+                    <div class="row">
+                        <img class="six columns" src="images/remote-group-set-ios.png"/>
+                    </div>
+                </ol>
+
+                <h2 id="Restore Factory Settings">Restore Factory Settings</h2>
+                <ol>
+                    <li>Turn off the bulb and wait for 20 seconds</li>
+                    <li>Repeat the following operation for 3 times.</li>
+                    <ol>
+                        <li>Turn on the bulb for 5 seconds.</li>
+                        <li>Turn off the bulb for 5 seconds.</li>
+                    </ol>
+                    <li>Turn on the bulb for the 4th time and wait for 10 seconds. The bulb will now restore the factory
+                        settings. It will change colors according to: slow <font color="red">red</font> → slow <font
+                            color="green">green</font> → slow <font color="blue">blue</font> → <font color=#FFDEAD>warm
+                            white</font> and then enter Wi-Fi access point mode.
+                    </li>
+                </ol>
+
+                <h2 id="System Requirements">System Requirements</h2>
+                <p>
+                    Stellar Wi-fi runs on the following devices:
+                </p>
+                <ol>
+                    <li>iOS devices running iOS 8.0+</li>
+                    <li>Android devices running Android 4.2+</li>
+                </ol>
+                <p>
+                    You also need at least one Sansi Smart LED bulb to get started.
+                </p>
+
+                <h2 id="Contact Us">Contact Us</h2>
+                <p>
+                    For technical support, please contact <a href="mailto:Stellar@sansitech.com?subject=Stellar Help">stellar@sansitech.com</a>
+                </p>
+            </section>
+            <footer>
+                <p>Last updated on Nov 21, 2016.</p>
+            </footer>
         </article>
         <!-- </div> -->
-      </div>
     </div>
-    <!-- End Document
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  </body>
+</div>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
 </html>
