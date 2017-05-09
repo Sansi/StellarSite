@@ -47,6 +47,7 @@
                 <li class="luxbar-item" onclick="hideNav()"><a href="#获取应用">获取应用</a></li>
                 <li class="luxbar-item" onclick="hideNav()"><a href="#安装设备">安装设备</a></li>
                 <li class="luxbar-item" onclick="hideNav()"><a href="#ios操作简介">ios操作简介</a></li>
+                <li class="luxbar-item" onclick="hideNav()"><a href="#android_produce">android操作简介</a></li>
                 <li class="luxbar-item" onclick="hideNav()"><a href="#灯泡恢复出厂设置步骤">灯泡恢复出厂设置步骤</a></li>
                 <li class="luxbar-item" onclick="hideNav()"><a href="#运行环境需求">运行环境需求</a></li>
                 <li class="luxbar-item" onclick="hideNav()"><a href="#联系我们">联系我们</a></li>
@@ -57,8 +58,20 @@
         <!-- <div class="eight columns" style="margin-top: 25%"> -->
         <article class="post">
             <header class="post-header">
+<!-- <<<<<<< Updated upstream
                 <h1 class="post-title"></h1>
 
+=======
+                <h1 id="home" class="post-title">Stellar Wi-Fi 快速安装指南</h1>
+                <ul>
+                    <li class="active"><a href="#home">首页</a></li>
+                    <li><a href="#简介">简介</a></li>
+                    <li><a href="#获取应用">获取应用</a></li>
+                    <li><a href="#安装设备">安装设备</a></li>
+                    <li><a href="#ios操作简介">ios操作简介</a></li>
+                    <li><a href="#android操作简介">android操作简介</a></li>
+                </ul>
+>>>>>>> Stashed changes -->
             </header>
             <section class="post-content">
                 <div class="row">
@@ -186,6 +199,98 @@
                         <img class="six columns" src="images/remote-group-set-ios.png"/>
                     </div>
                 </ol>
+
+
+                <h2 id="android_produce">android操作简介</h2>
+
+
+
+                <h4 id="添加设备至Wifi">添加设备至Wifi</h4>
+                <ol>
+                    <li>在手机设置无线局域网界面中找到灯泡的Wi-Fi网络，（全彩灯泡的网络名称“SLRG B******”）,并确认连接成功。</li>
+                    <div class="row">
+                        <img class="six columns" src="images/connect-wifi-ios.png"/>
+                    </div>
+                    <li>打开Stellar Wi-Fi应用,点击右上角[+] → [添加设备],点击[检测到可添加设备]，选择设备并点击[保存]</li>
+                    <div class="row">
+                      <!--   <img class="six columns" src="images/android/zh/addDevice_1.png"/> -->
+                        <img class="six columns" src="images/android/zh/addDevice_2.png"/>
+                        <!-- <img class="six columns" src="images/android/zh/addDevice_3.png"/> -->
+                        <img class="six columns" src="images/android/zh/addDevice_4.png"/>
+                    </div>
+                    <li>进入主界面，点击灯进入控制界面，点击右上角按钮进入设置界面</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/zh_add_wifi_light.png"/>
+                        <img class="six columns" src="images/android/zh/localCCT.png"/>
+                    </div>
+                    <li>在设置界面点击[无线网络]进行进入wifi界面</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/config.png"/>
+                        <img class="six columns" src="images/android/zh/zh_add_wifi.png"/>
+                    </div>
+                    <li>点击[无线网络],选择你想加入WiFi的名称并输入其密码，最后点击[保存]，这个过程大约需要30s。</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/zh_add_wifi.png"/>
+                    </div>
+
+                    <li>当提示链接成功后，切换wifi，返回Stellar WiFi，就能找到在列表中找到灯啦。(如果多次刷新列表都没有找到灯，请重新尝试上述步骤)</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/zh_add_wifi_light.png"/>
+                        <!-- <img class="six columns" src="images/search-ios-5.png"/> -->
+                    </div>
+                </ol>
+                
+
+
+                <h4 id="游客模式">游客模式</h4>
+                <p>
+                    游客模式是指用户在未登录的情况下使用stellar Wifi，用户只能控制已经被添加到当前wifi中的灯。
+                    <br/>通过侧边栏的退出登录，并在弹出的登录界面中选择游客模式进入该模式。
+                </p>
+                <div class="row">
+                    <img class="six columns" src="images/android/zh/zh_login.png"/>
+                    <!-- <img class="six columns" src="images/menu-tourist-ios.png"/> -->
+                </div>
+                <ol>
+                    <li>点击灯泡进入控制界面。如果是彩色灯则显示彩色控制界面，如果是色温灯则显示色温控制界面</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/localRGB.png"/>
+                        <img class="six columns" src="images/android/zh/localCCT.png"/>
+                    </div>
+                    <li>音乐模式（颜色随音乐而动，彩色灯特有）<br/>点击左上角的音乐选择按钮，选择喜欢的音乐，感受光随音乐而动的美。</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/localMusic.png"/>
+                    </div>
+                    <li>场景模式（彩色灯特有）<br/>场景模式为您提供了8种不同的场景模式，点击选择不同场景，感受不同颜色不同频率的渐变。</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/localScene.png"/>
+                    </div>
+                    <li>倒计时功能（版本>2.0）<br>点击控制住界面上开关按钮右边的倒计时按钮</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/countDown_2.png"/>
+                    </div>
+                </ol>
+
+                
+
+                <h4 id="登录模式">登录模式</h4>
+                <p>登录模式是指用户在登录模式下使用Stellar Wifi,在登录模式下，可以使用Alexa功能</p>
+                <ol>
+                    <li>登录<br/>输入用户名、密码点击登录即可</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/zh_login.png"/>
+                       <!--  <img class="six columns" src="images/android/zh/loginMain.png"/> -->
+                    </div>
+                    <li>其它操作，同游客模式</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/loginMain.png"/>
+                        <!-- <img class="six columns" src="images/remote-add-ios.png"/>
+                        <img class="six columns" src="images/remote-group-add-ios.png"/>
+                        <img class="six columns" src="images/remote-group-ios.png"/> -->
+                    </div> 
+                </ol>
+
+
 
                 <h2 id="灯泡恢复出厂设置步骤">灯泡恢复出厂设置步骤</h2>
                 <ol>
