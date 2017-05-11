@@ -2,28 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24543577-8942-4b79-af47-7f9e54063b07" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/mic-ios.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/connect-wifi-ios.png" afterPath="$PROJECT_DIR$/help/en/images/connect-wifi-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/countDown_1-ios.png" afterPath="$PROJECT_DIR$/help/en/images/countDown_1-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/countDown_2-ios.png" afterPath="$PROJECT_DIR$/help/en/images/countDown_2-ios.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/control-ios-cct.png" afterPath="$PROJECT_DIR$/help/en/images/control-ios-cct.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/control-ios.png" afterPath="$PROJECT_DIR$/help/en/images/control-ios.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/login-ios.png" afterPath="$PROJECT_DIR$/help/en/images/login-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/menu-ios.png" afterPath="$PROJECT_DIR$/help/en/images/menu-ios.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/menu-tourist-ios.png" afterPath="$PROJECT_DIR$/help/en/images/menu-tourist-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/mode-ios.png" afterPath="$PROJECT_DIR$/help/en/images/mode-ios.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/music-ios.png" afterPath="$PROJECT_DIR$/help/en/images/music-ios.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-Alexa-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-Alexa-ios.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-add-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-add-ios.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-control-cct-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-control-cct-ios.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-control-rgb-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-control-rgb-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-control-scene-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-control-scene-ios.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-group-add-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-group-add-ios.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-group-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-group-ios.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-group-set-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-group-set-ios.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-main-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-main-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-side-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-side-ios.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/search-ios-2.png" afterPath="$PROJECT_DIR$/help/en/images/search-ios-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/search-ios-3.png" afterPath="$PROJECT_DIR$/help/en/images/search-ios-3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/search-ios-4.png" afterPath="$PROJECT_DIR$/help/en/images/search-ios-4.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/search-ios-5.png" afterPath="$PROJECT_DIR$/help/en/images/search-ios-5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/search-ios.png" afterPath="$PROJECT_DIR$/help/en/images/search-ios.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/set-ios.png" afterPath="$PROJECT_DIR$/help/en/images/set-ios.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/update-ios.png" afterPath="$PROJECT_DIR$/help/en/images/update-ios.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -51,7 +48,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/help/zhs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
+            <state relative-caret-position="480">
               <caret line="32" column="13" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="32" selection-end-column="13" />
               <folding />
             </state>
@@ -61,8 +58,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/help/en/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2856">
-              <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+            <state relative-caret-position="30">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -83,8 +80,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="195" column="45" lean-forward="false" selection-start-line="195" selection-start-column="45" selection-end-line="195" selection-end-column="45" />
+            <state relative-caret-position="1344">
+              <caret line="344" column="57" lean-forward="false" selection-start-line="344" selection-start-column="57" selection-end-line="344" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -138,6 +135,8 @@
       <find>h4</find>
       <find>li</find>
       <find>media</find>
+      <find>（</find>
+      <find>(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,7 +168,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="892" />
+    <option name="x" value="354" />
     <option name="y" value="23" />
     <option name="width" value="1240" />
     <option name="height" value="810" />
@@ -189,8 +188,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -331,7 +331,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -582,6 +581,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -766,15 +766,17 @@
       <workItem from="1494288987113" duration="663000" />
       <workItem from="1494295825895" duration="3797000" />
       <workItem from="1494323522011" duration="4875000" />
-      <workItem from="1494466052592" duration="1263000" />
+      <workItem from="1494466052592" duration="1493000" />
+      <workItem from="1494472125415" duration="1197000" />
+      <workItem from="1494482067516" duration="498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46410000" />
+    <option name="totallyTimeSpent" value="48335000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="892" y="23" width="1240" height="810" extended-state="0" />
+    <frame x="354" y="23" width="1240" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -793,6 +795,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24758065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958263" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -807,7 +810,6 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1109,31 +1111,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="195" column="45" lean-forward="false" selection-start-line="195" selection-start-column="45" selection-end-line="195" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help/zhs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/help/en/images/connect-wifi-ios.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="344" column="57" lean-forward="false" selection-start-line="344" selection-start-column="57" selection-end-line="344" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/help/en/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2856">
-          <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#input#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
