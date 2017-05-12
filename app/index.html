@@ -26,7 +26,17 @@
         var theUrl = 'http://www.sansistellar.com/';
         var iPadUrl = 'https://itunes.apple.com/us/app/stellar-wi-fi/id965055647?ls=1&mt=8';
         if(Terminal.platform.android){
-            theUrl = 'http://www.sansitech.com/app/StellarWi-Fi.apk';
+            theUrl = 'https://play.google.com/store/apps/details?id=com.sansi.stellarWiFi';
+            currentLang = navigator.language;   //判断除IE外其他浏览器使用语言
+            if(!currentLang){//判断IE浏览器使用语言
+                currentLang = navigator.browserLanguage;
+                if (currentLang =="zh-CN") {
+                    theUrl = 'http://www.sansitech.com/app/StellarWi-Fi.apk';
+                };
+            }
+
+            
+
         }else if(Terminal.platform.iPhone){
             theUrl = 'https://itunes.apple.com/us/app/stellar-wi-fi/id965055647?ls=1&mt=8';
         }else if(Terminal.platform.iPad){
