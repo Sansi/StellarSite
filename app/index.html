@@ -27,6 +27,8 @@
                     iPad: u.indexOf('iPad') > -1,
 
                     ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+
+                    webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
                 };
             }(),
             // 辨别移动终端的语言：zh-cn、en-us、ko-kr、ja-jp...
@@ -34,7 +36,7 @@
         }
  
         // 根据不同的终端，跳转到不同的地址
-        var theUrl = 'http://www.sansitech.com/app/StellarWi-Fi.apk';
+        var theUrl = 'stellar-wifi.apk';
         var iPadUrl = 'https://itunes.apple.com/us/app/stellar-wi-fi/id965055647?ls=1&mt=8';
 
         if(Terminal.platform.android){
@@ -44,7 +46,7 @@
                 //alert('en');
                 theUrl = 'https://play.google.com/store/apps/details?id=com.sansi.stellarWiFi';
             };
-        }else if(Terminal.platform.iPhone || Terminal.platform.ios || Terminal.platform.iPad){
+        }else if(Terminal.platform.iPhone || Terminal.platform.ios || Terminal.platform.iPad || Terminal.platform.webApp){
             theUrl = 'https://itunes.apple.com/us/app/stellar-wi-fi/id965055647?ls=1&mt=8';
         }/*else if(Terminal.platform.iPad){
             // 还可以通过language，区分开多国语言版
