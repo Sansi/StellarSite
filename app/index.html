@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <title>download</title>
     <script type="text/javascript">
+
+
+    currentLang = navigator.language;   //判断除IE外其他浏览器使用语言
+    if(!currentLang){//判断IE浏览器使用语言
+
+        currentLang = navigator.browserLanguage;
+    }
+    //alert('language:'+currentLang);
+
         // 获取终端的相关信息
         var Terminal = {
             // 辨别移动终端类型
@@ -15,7 +24,9 @@
                     // 是否为iPhone或者QQHD浏览器
                     iPhone: u.indexOf('iPhone') > -1,
                     // 是否iPad
-                    iPad: u.indexOf('iPad') > -1
+                    iPad: u.indexOf('iPad') > -1,
+
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
                 };
             }(),
             // 辨别移动终端的语言：zh-cn、en-us、ko-kr、ja-jp...
@@ -23,23 +34,19 @@
         }
  
         // 根据不同的终端，跳转到不同的地址
-        var theUrl = 'http://www.sansistellar.com/';
+        var theUrl = 'http://www.sansitech.com/app/StellarWi-Fi.apk';
         var iPadUrl = 'https://itunes.apple.com/us/app/stellar-wi-fi/id965055647?ls=1&mt=8';
+
         if(Terminal.platform.android){
-            theUrl = 'https://play.google.com/store/apps/details?id=com.sansi.stellarWiFi';
-            currentLang = navigator.language;   //判断除IE外其他浏览器使用语言
-            if(!currentLang){//判断IE浏览器使用语言
-                currentLang = navigator.browserLanguage;
-                if (currentLang =="zh-CN") {
-                    theUrl = 'http://www.sansitech.com/app/StellarWi-Fi.apk';
-                };
-            }
-
-            
-
-        }else if(Terminal.platform.iPhone){
+            if (currentLang == 'zh-CN') {
+                alert('zh-CN');
+            }else{
+                alert('en');
+                theUrl = 'https://play.google.com/store/apps/details?id=com.sansi.stellarWiFi';
+            };
+        }else if(Terminal.platform.iPhone || Terminal.platform.ios || Terminal.platform.iPad){
             theUrl = 'https://itunes.apple.com/us/app/stellar-wi-fi/id965055647?ls=1&mt=8';
-        }else if(Terminal.platform.iPad){
+        }/*else if(Terminal.platform.iPad){
             // 还可以通过language，区分开多国语言版
             switch(Terminal.language){
                 case 'en-us':
@@ -54,7 +61,7 @@
                 default:
                     theUrl = iPadUrl;
             }
-        }
+        }*/
  
         location.href = theUrl;
     </script>
