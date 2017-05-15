@@ -27,6 +27,7 @@
                     iPad: u.indexOf('iPad') > -1,
 
                     ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                    webKit: u.indexOf('AppleWebKit') > -1,
 
                     webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
                 };
@@ -34,11 +35,12 @@
             // 辨别移动终端的语言：zh-cn、en-us、ko-kr、ja-jp...
             language : (navigator.browserLanguage || navigator.language).toLowerCase()
         }
- 
+
         // 根据不同的终端，跳转到不同的地址
         var theUrl = 'stellar-wifi.apk';
         var iPadUrl = 'https://itunes.apple.com/us/app/stellar-wi-fi/id965055647?ls=1&mt=8';
 
+        alert(Terminal.version);
         if(Terminal.platform.android){
             if (currentLang == 'zh-CN') {
                 //alert('zh-CN');
@@ -46,7 +48,7 @@
                 //alert('en');
                 theUrl = 'https://play.google.com/store/apps/details?id=com.sansi.stellarWiFi';
             };
-        }else if(Terminal.platform.iPhone || Terminal.platform.ios || Terminal.platform.iPad || Terminal.platform.webApp){
+        }else if(Terminal.platform.iPhone || Terminal.platform.ios || Terminal.platform.iPad || Terminal.platform.webKit){
             theUrl = 'https://itunes.apple.com/us/app/stellar-wi-fi/id965055647?ls=1&mt=8';
         }/*else if(Terminal.platform.iPad){
             // 还可以通过language，区分开多国语言版
@@ -64,13 +66,13 @@
                     theUrl = iPadUrl;
             }
         }*/
- 
+
         location.href = theUrl;
     </script>
 </head>
 <body>
     <!--
- 
+
     -->
 </body>
 </html>
