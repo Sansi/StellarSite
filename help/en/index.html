@@ -87,105 +87,125 @@
 
                 <h2 id="iOS Instructions">iOS Instructions</h2>
 
-                <h4 id="Add device to router">1. Add device to WiFi</h4>
-                <ol>
-                    <li>Find the bulb’s Wi-Fi network (name SLRGB*******), and connect to it. Please confirm the connection is successfully established by waiting until the Wi-Fi icon appears at the top of the status bar.</li>
+                <h4 id = "register">1. Registered account</h4>
+                <li>Open the Stellar Wi-Fi application, click the<span style="color:red;"> sign up </span>button</li>
+                <li>Enter the correct valid mailbox and any valid login password，click the<span style="color:red;"> submit </span>button</li>
+                <div class="row">
+                    <img class="six columns" src="images/login.png" />
+                    <img class="six columns" src="images/register.png" />
+                </div>
+
+                <h4 id="添加设备至Wifi">2. Add the device to the target WiFi</h4>
+                <li>Click on the top right corner<span style="color:red"> ＋ </span>button，select the<span style="color:red"> Add Bulb </span>button</li>
+                <div class="row">
+                        <img class="six columns" src="images/addBulb.png"/>
+                    </div>
+                <li>Make sure the light is on，click the<span style="color:red"> next</span></li>
+                <li>click the<span style="color:red"> Select WiFi </span>.It jumps to the phone<span style="color:red"> Settings -> WLAN </span>interface</li>
+                 <div class="row">
+                        <img class="six columns" src="images/findBulb.png"/>
+                        <img class="six columns" src="images/selectBulb.png"/>
+                    </div>
+                <li>Click to connect the bulb to the bulb light Wi-Fi network, and confirm the connection success</li>
+                <div style="color:red">Note:<br>The full color bulb which network name is similar to SLRGB*********.<br>The first connection may be a little longer.</div>
                     <div class="row">
                         <img class="six columns" src="images/connect-wifi-ios.png"/>
                     </div>
-                    <li>Open the Stellar Wi-Fi application. It will automatically search for the light bulbs, and the connected bulb will be shown in the type list (the bulb is default shown as SSLedLampDefaultName).</li>
+                <li>For the first time, you need to enter your WiFi name and password manually，click the<span style="color:red"> Join </span>button。This process takes about 30s</li>
                     <div class="row">
-                        <img class="six columns" src="images/search-ios.png"/>
+                        <img class="six columns" src="images/joinWiFi.png"/>
                     </div>
-                    <li>Click "click to join the wireless" button, and enter the WiFi name and its password, and then click "join the current wifi". This process takes about 30s.</li>
+                    <li>When prompted, click return to the Stellar wi-fi application home page.</li>
+                    <div style="color:red">Note:<br>If the lamp is not found on multiple refresh lists, check to see if the phone is connected to the target WiFi or the above step error</div>     
+                    <h4>3. Functional operation</h4>
+                    <h5><1> Colored lights</h5>
+                        <h5><2>Color temperature light：Now only color temperature control and countdown switch are supported</h5>
+                    <li>Color control</li>
                     <div class="row">
-                        <img class="six columns" src="images/search-ios-2.png"/>
+                        <img class="six columns" src="images/remote-control-rgb-ios.png"/>    
                     </div>
-                    <li>Having successfully linked to WiFi, please return to the phone settings interface, switch WiFi, and then return to Stellar Wi-Fi. You can find other light bulbs in the list. (If you have refreshed the list many times but couldn't find any bulbs, please try the above steps again).</li>
+                    <li>Color temperature control</li>
                     <div class="row">
-                        <img class="six columns" src="images/search-ios-4.png"/>
-                        <img class="six columns" src="images/search-ios-5.png"/>
+                       <img class="six columns" src="images/remote-control-cct-ios.png"/>
                     </div>
-                </ol>
-                <h4 id="Tourist Mode">2. Tourist Mode</h4>
-
-                <p>
-                    The Tourist mode means that Stellar Wi-Fi is used without logging in, and the user can only control bulbs that have been added to the current WiFi. The user enters the mode through the "exit registration" of the sidebar and selects the Tourist mode in the pop-up login interface. The group control function is not available in this mode.
-                </p>
-
-                <div class="row">
-                    <img class="six columns" src="images/login-ios.png"/>
-                    <img class="six columns" src="images/menu-tourist-ios.png"/>
-                </div>
-                <ol>
-                    <li>Click the light bulb to enter the control interface. The color control interface shows if it is a RGB bulb, while the color temperature interface shows if it is a CCT bulb.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/control-ios.png"/>
-                        <img class="six columns" src="images/control-ios-cct.png"/>
-                    </div>
-                    <li>Music mode (For RGB bulb only)<br/>Click on the upper left corner of the music selection button, and select your favorite song, and then enjoy colorful lights changing with music.</li>
+                    <li>Music mode<br/>Click on the upper left corner of the music selection button, and select your favorite song, and then enjoy colorful lights changing with music.</li>
                     <div class="row">
                         <img class="six columns" src="images/music-ios.png"/>
                     </div>
-                    <li>Scene Mode (For RGB bulb only) <br/>There are 8 different scene modes. Click to select different scenes, and enjoy colors changing with different frequency.</li>
+                    <li>Scene mode<br/>There are 8 different scene modes. Click to select different scenes, and enjoy colors changing with different frequency.</li>
                     <div class="row">
-                        <img class="six columns" src="images/mode-ios.png"/>
+                        <img class="six columns" src="images/remote-control-scene-ios.png"/>
                     </div>
-                    <li>Countdown Mode (Software version > 2.0 only) <br>Click the countdown button on the right side of the switch button on the control panel (If this button is unavailable, please make sure the device software version is the latest one. If not, please update your device software), schedule the time, select the action, click the start button or cancel button.
-                    </li>
+                    <li>Countdown function</li>
+                    <div style="color:red">Note:<br>Software version > 2.0,The lights connect WiFi and the phone connect WiFi is the same WiFi</div>
                     <div class="row">
-                        <img class="six columns" src="images/countDown_1-ios.png"/>
-                        <img class="six columns" src="images/countDown_2-ios.png"/>
+                        <img class="six columns" src="images/timeSelect.png"/>
+                        <img class="six columns" src="images/timeRun.png"/>
                     </div>
-                    <li>Config<br/>In the Config interface, you can do the followings:<br/>
+                    <li>Config<br/>In the Settings screen, the lamp can manipulate attributes:<br/>
                         <ul>
-                            <li>Change the bulb's name.</li>
-                            <li>Switch bulb's WiFi (Only available if the bulb can be found in current WiFi) .</li>
-                            <li>
-                                If the software version of the bulb is not up to date, please upgrade the firmware. If firmware has updated for a long time, please click Cancel and try again. If you still can not reset the bulb, try to connect the lamp directly. (Only available if the bulb can be found in current WiFi).
-                            </li>
-                            <li>Reset the lamp (if it is logged in, the bulb will be removed from the list). After reset, the bulb will flash and restored to factory settings.(The bulb will disconnect to the original WiFi).</li>
+                            <li>Modify lamp name</li>
+                            <li>Countdown</li>
+                            <li>Switch the light WiFi</li>
+                            <li>Whether to allow remote control</li>
+                            <li>Reset lamp (hint: lamp will restore factory setting)</li>
+                        </ul>
+                        The lamp cann't manipulate attributes:<br>
+                        <ul>
+                            <li>Mac address of the lamp</li>
+                            <li>The type of lamp</li>
+                            <li>Software version of the lamp</li>
+                            <li>Hardware version of the lamp</li>
                         </ul>
                     </li>
                     <div class="row">
-                        <img class="six columns" src="images/set-ios.png"/>
-                        <img class="six columns" src="images/update-ios.png"/>
+                        <img class="six columns" src="images/config.png"/>
                     </div>
-                </ol>
-
-                <h4 id="Login Mode">3. Login Mode</h4>
-
-                <p> In login mode, the group control and Alexa function are available.</p>
-                <ol>
-                    <li>Login<br/>Click the login button in the side menu, and then enter the account name and password and click login button.
-
-                        After login, Stellar Wi-Fi will automatically find bulbs which have been added into the current WiFi and then add them to the account. If you don't find any bulbs, please refresh the list again.</li>
+                    <h4>Sidebar</h4>
                     <div class="row">
-                        <img class="six columns" src="images/login-ios.png"/>
-                        <img class="six columns" src="images/remote-main-ios.png"/>
+                        <img class="six columns" src="images/left.png"/>
                     </div>
-                    <li>Connect to Amazon (Alexa) <br/>Click the "Connect to Amazon" button in the side menu, then click "Confirm the association" button. Follow the Amazon instructions to complete the operation so that you can associate your Stellar account with your Amazon account. Now you can control your bulbs by voice.
-                    </li>
+                    <ul>
+                        <li>Portrait settings</li>
+                        <li>Nickname showed</li>
+                        <li>Online help</li>
+                        <li>Associated amazon</li>
+                        <li>Account and password Settings</li>
+                    </ul>
+                    <h5>1. Click the<span style="color:red"> icon </span>. Enter the personal information interface, click on the head to set the avatar, and click the nickname line to set the nickname</h5>
+                    <div class="row">
+                        <img class="six columns" src="images/leftInfo.png"/>
+                    </div>
+                    <h5>2. Click the<span style="color:red"> Config </span>. Enter the setup interface, reset the password and about us</h5>
+                     <div class="row">
+                        <img class="six columns" src="images/leftConfig.png"/>
+                    </div>
+                    <h5>3.（Alexa Function）<br/>Click the<span style="color:red"> Associated amazon </span>. Enter configuration of amazon function interface, implement voice control lamp<br>
+                    </h5>
+                    <div style="color:red">Note:
+                    <li>The App account and password are login status</li>
+                    <li>Amazon account registration or login</li>
+                    <li>Echo device support</li>
+                    </div>
                     <div class="row">
                         <img class="six columns" src="images/remote-Alexa-ios.png"/>
                     </div>
-                    <li>Add Group<br/>Click the button on upper-right corner, then enter the group name and choose bulbs.(Each bulb can only be added to one group. If the bulb you choose is added, it will be removed from the former group).</li>
+                    <h4>Group Operations</h4>
+                    <li>Add the group<br/>click on the upper right corner<span style="color:red"> ＋ </span>button,click the<span style="color:red"> Add Group </span>Enter a group name and select the device to add a new group</li>
+                    <div style="color:red">Note:<br>A device can only be added to a group, and if the device in another group is selected, the device will be removed from the original group</div>
                     <div class="row">
                         <img class="six columns" src="images/remote-add-ios.png"/>
                         <img class="six columns" src="images/remote-group-add-ios.png"/>
                         <img class="six columns" src="images/remote-group-ios.png"/>
                     </div>
-                    <li>Group Control<br/>Click a group to enter the control interface. The group control interface contains color control interface, color temperature control interface and scene control interface.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/remote-control-rgb-ios.png"/>
-                        <img class="six columns" src="images/remote-control-cct-ios.png"/>
-                        <img class="six columns" src="images/remote-control-scene-ios.png"/>
-                    </div>
-                    <li>Edit Group<br/>Click upper-right button in group control interface to enter Edit Group interface. In this interface, you can change your group's name and add or remove bulbs.</li>
+                    <li>Edit the group<br/>Click the upper right corner of the interface<span style="color:red"> Edit </span>button. Enter the edit group interface, modify the group name, and add and delete the device in the group.</li>
                     <div class="row">
                         <img class="six columns" src="images/remote-group-set-ios.png"/>
                     </div>
-                </ol>
+
+
+
+
 
 
 				<!-- android -->
