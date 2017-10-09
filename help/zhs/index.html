@@ -72,13 +72,7 @@
                     iOS 用户在“App Store”中搜索并安装“Stellar Wi-Fi”。<br/>安卓用户在Google Play、豌豆荚中搜索并安装“Stellar Wi-Fi”。<br/>或扫描下方二维码，下载应用。
                 </p>
 
-                <!-- <p>
-                    安卓用户在Google Play、豌豆荚中搜索并安装“Stellar Wi-Fi”或扫描下方第二个二维码，下载应用。
-                </p> -->
-
                 <div class="row">
-                    <!-- <img class="three columns" src="../images/qrcode_wifi_appstore.png"/>
-                    <img class="three columns" src="../images/qrcode_wifi_sansi.png"/> -->
                     <img class="three columns" src="../../img/qr/stellarWiFi.png"/>
                 </div>
                 <br/>
@@ -88,123 +82,168 @@
                 <p>将灯泡拧入灯座，打开电源开关。</p>
                 <img src="../images/install-bulb.png"/>
 
-                <h2 id="ios操作简介">ios操作简介</h2>
+                <h2 id="ios操作简介">iOS 操作简介</h2>
 
-                <h4 id="添加设备至Wifi">1.添加设备至Wifi</h4>
-                <ol>
-                    <li>在手机设置无线局域网界面中找到灯泡的Wi-Fi网络，（全彩灯泡的网络名称“SLRG B******”）,并确认连接成功。</li>
+                <h4 id = "register">1. 注册账号</h4>
+                <li>打开Stellar Wi-Fi 应用，点击<span style="color:red;">注册账号</span>按钮</li>
+                <li>输入正确有效邮箱和任意有效登录密码，点击<span style="color:red;">提交</span>按钮将自动登录到APP主页</li>
+                <div class="row">
+                    <img class="six columns" src="images/login.png" />
+                    <img class="six columns" src="images/register.png" />
+                </div>
+
+                <h4 id="添加设备至Wifi">2. 将设备添加到目标WiFi</h4>
+                <li>点击右上角<span style="color:red">＋</span>按钮，点击<span style="color:red">添加灯</span>按钮</li>
+                <div class="row">
+                        <img class="six columns" src="images/addBulb.png"/>
+                    </div>
+                <li>确认灯是点亮状态，点击<span style="color:red">下一步</span></li>
+                <li>点击<span style="color:red">选择无线网</span>。会跳到手机<span style="color:red">设置->无线网设置</span>界面</li>
+                 <div class="row">
+                        <img class="six columns" src="images/searchBulb.png"/>
+                        <img class="six columns" src="images/searchWiFi.png"/>
+                    </div>
+                <li>点击连接球泡灯Wi-Fi网络,并确认连接成功</li>
+                <div style="color:red">注：<br>全彩球泡灯网络名称类似 SLRGB*********<br>首次连接可能等待时间稍长</div>
                     <div class="row">
                         <img class="six columns" src="images/connect-wifi-ios.png"/>
                     </div>
-                    <li>打开Stellar Wi-Fi应用。它会自动搜索灯泡，连接后的灯泡会出现在类列表中 (默认显示为SSLedLampDefaultName)。</li>
+                <li>首次加入目标WiFi需要手动输入WiFi名称和密码，点击<span style="color:red">加入</span>按钮。此过程需要大约30s</li>
+                <li>WiFi密码和账号输入无误后，点击<span style="color:red">选择无线网路</span>会跳到手机<span style="color:red">设置->无线网设置</span>界面，选择目标WiFi，点击连接后返回Stellar Wi-Fi</li>
                     <div class="row">
-                        <img class="six columns" src="images/search-ios.png"/>
+                        <img class="six columns" src="images/joinNetwork.png"/>
+                        <img class="six columns" src="images/connectRight.png"/>
                     </div>
-                    <li>点击"点击加入无线按钮"，输入你想加入WiFi名称及其密码，最后点击"加入当前wifi"，这个过程大约需要30s。</li>
+                    <li>App会自动搜索假如成功的球泡灯，显示在主页，成功加入</li>
+                    <div style="color:red">注：<br>如果长时间都没有找到灯，请查看手机是否连接目标WiFi或以上步骤错误</div>
+                    <h4>3. 功能使用操作</h4>
+                    <h5><1> 彩色球泡灯</h5>
+                        <h5><2>色温球泡灯：暂仅支持色温调控和倒计时开关</h5>
+                    <li>颜色调控</li>
                     <div class="row">
-                        <img class="six columns" src="images/search-ios-2.png"/>
+                        <img class="six columns" src="images/remote-control-rgb-ios.png"/>
                     </div>
-                    <li>当提示链接成功后，返回手机设置界面，切换wifi，在回Stellar Wi-Fi，就能找到在列表中找到灯啦。(如果多次刷新列表都没有找到灯，请重新尝试上述步骤)</li>
+                    <li>色温调控</li>
                     <div class="row">
-                        <img class="six columns" src="images/search-ios-4.png"/>
-                        <img class="six columns" src="images/search-ios-5.png"/>
+                       <img class="six columns" src="images/remote-control-cct-ios.png"/>
                     </div>
-                </ol>
-                <h4 id="游客模式">2.游客模式</h4>
-
-                <p>
-                    游客模式是指用户在未登录的情况下使用Stellar Wi-Fi，用户只能控制已经被添加到当前wifi中的灯。<br/>通过侧边栏的退出登录，并在弹出的登录界面中选择游客模式进入该模式，该模式下组控功能不可用。
-                </p>
-
-                <div class="row">
-                    <img class="six columns" src="images/login-ios.png"/>
-                    <img class="six columns" src="images/menu-tourist-ios.png"/>
-                </div>
-                <ol>
-                    <li>点击灯泡进入控制界面。如果是彩色灯则显示彩色控制界面，如果是色温灯则显示色温控制界面</li>
+                    <li>音乐模式<br/>点击左上角的音乐选择按钮，选择喜欢的音乐，感受光随音乐而动的美。</li>
                     <div class="row">
-                        <img class="six columns" src="images/control-ios.png"/>
-                        <img class="six columns" src="images/control-ios-cct.png"/>
+                        <img class="six columns" src="images/setMusic-ios.png"/>
                     </div>
-                    <li>音乐模式（颜色随音乐而动，彩色灯特有）<br/>点击左上角的音乐选择按钮，选择喜欢的音乐，感受光随音乐而动的美。</li>
+                    <li>场景模式<br/>场景模式为您提供了8种不同的场景模式，点击场景名选择不同场景，感受不同颜色不同频率的渐变。</li>
                     <div class="row">
-                        <img class="six columns" src="images/music-ios.png"/>
+                        <img class="six columns" src="images/remote-control-scene-ios.png"/>
                     </div>
-                    <li>场景模式（彩色灯特有）<br/>场景模式为您提供了8种不同的场景模式，点击选择不同场景，感受不同颜色不同频率的渐变。</li>
+                    <li>倒计时功能</li>
+                    <div style="color:red">注：<br>软件版本号 > 2，且灯所在WiFi和手机连接WiFi是同一个WiFi</div>
                     <div class="row">
-                        <img class="six columns" src="images/mode-ios.png"/>
+                        <img class="six columns" src="images/timeSelect.png"/>
+                        <img class="six columns" src="images/timeRun.png"/>
                     </div>
-                    <li>倒计时功能（版本>2.0）<br>点击控制住界面上开关按钮右边的倒计时按钮（如果没有这个按钮，请检查设备软件版本是否为最新，如果不是，请更新），选择时间，选择动作，点击开始按钮即可启动倒计时，当然也可以点击取消来取消倒计时。</li>
-                    <div class="row">
-                        <img class="six columns" src="images/countDown_1-ios.png"/>
-                        <img class="six columns" src="images/countDown_2-ios.png"/>
-                    </div>
-                    <li>设置<br/>在设置界面中，你可以对等进行如下操作：<br/>
+                    <li>设置<br/>在设置界面中，灯可操作属性：<br/>
                         <ul>
-                            <li>修改灯的名字；</li>
-                            <li>切换灯的wifi（此功能仅在当前wifi下能找到该灯时可用）；</li>
-                            <li>
-                                如果灯的软件版本不是最新的，可以对灯进行固件升级，如果发现更新固件时间较长，请点击取消后重试，如果还是不行，请重置该灯后直接连接灯进行尝试（此功能仅在当前wifi下能找到该灯时可用）；
-                            </li>
-                            <li>重置灯（如果处于登录状态，则会将灯从列表中删除），重置后，灯会闪烁，后会恢复出厂设置（脱离原有wifi）。</li>
+                            <li>修改灯名称</li>
+                            <li>倒计时开关</li>
+                            <li>切换灯WiFi</li>
+                            <li>是否允许远程控制</li>
+                            <li>重置灯（提示：灯会恢复出厂设置）</li>
+                        </ul>
+                        灯不可操作属性：<br>
+                        <ul>
+                            <li>灯的Mac地址</li>
+                            <li>灯的类型</li>
+                            <li>灯的软件版本</li>
+                            <li>灯的硬件版本</li>
                         </ul>
                     </li>
                     <div class="row">
-                        <img class="six columns" src="images/set-ios.png"/>
-                        <img class="six columns" src="images/update-ios.png"/>
+                        <img class="six columns" src="images/setBulb.png"/>
                     </div>
-                </ol>
-
-                <h4 id="登录模式">3.登录模式</h4>
-
-                <p>登录模式是指用户在登录模式下使用Stellar Wi-Fi,在登录模式下，可以使用组控和Alexa功能</p>
-                <ol>
-                    <li>登录<br/>在侧边栏点击登录按钮，然后输入账号名及密码点击登录即可（登录后，Stellar Wi-Fi会自动将当前wifi下找到的灯添加到账号下，多刷新几次即可找到灯）。</li>
+                    <h4>左侧边栏</h4>
                     <div class="row">
-                        <img class="six columns" src="images/login-ios.png"/>
-                        <img class="six columns" src="images/remote-main-ios.png"/>
+                        <img class="six columns" src="images/leftMenu.png"/>
                     </div>
-                    <li>连接亚马逊（Alexa功能）<br/>在侧边栏点击连接亚马逊按钮，后点击确认关联按钮，再根据亚马逊的提示完成操作，即可将你的账号关联至你的亚马逊账号，这要你就可以通过语音来控制你的灯啦。</li>
+                    <ul>
+                        <li>头像设置</li>
+                        <li>昵称显示</li>
+                        <li>在线帮助</li>
+                        <li>关联亚马逊</li>
+                        <li>账号及密码设置</li>
+                    </ul>
+                    <h5>1. 点击<span style="color:red">头像icon</span>，进入个人信息界面，点击头像所在行设置头像，点击昵称所在行设置昵称</h5>
+                    <div class="row">
+                        <img class="six columns" src="images/leftInfo.png"/>
+                    </div>
+                    <h5>2. 点击<span style="color:red">设置</span>，进入设置界面，重置密码和关于我们</h5>
+                     <div class="row">
+                        <img class="six columns" src="images/leftReset.png"/>
+                    </div>
+                    <h5>3.（Alexa功能）<br/>点击<span style="color:red">关联亚马逊</span>进入配置亚马逊功能界面，实现语音控制灯<br>
+                    </h5>
+                    <div style="color:red">注：
+                    <li>App账号及密码是登录状态</li>
+                    <li>亚马逊账号注册或登录</li>
+                    <li>echo设备支持</li>
+                    </div>
                     <div class="row">
                         <img class="six columns" src="images/remote-Alexa-ios.png"/>
                     </div>
-                    <li>添加组<br/>点击右上角加号，输入组名，选择设备即可添加新的分组（一个设备只能被添加到一个组中，如果选择别的组中的设备，则会将该设备从原有分组中移除）。</li>
+                    <h4>组操作</h4>
+                    <li>添加组<br/>点击右上角<span style="color:red">＋</span>按钮，点击<span style="color:red">添加组</span>输入组名，选择设备即可添加新的分组</li>
+                    <div style="color:red">注：<br>一个设备只能被添加到一个组中，如果选择别的组中的设备，则会将该设备从原有分组中移除</div>
                     <div class="row">
                         <img class="six columns" src="images/remote-add-ios.png"/>
                         <img class="six columns" src="images/remote-group-add-ios.png"/>
                         <img class="six columns" src="images/remote-group-ios.png"/>
                     </div>
-                    <li>操作组<br/>点击一个组，进入操作组界面，操作组界面包含颜色控制，色温控制，场景</li>
-                    <div class="row">
-                        <img class="six columns" src="images/remote-control-rgb-ios.png"/>
-                        <img class="six columns" src="images/remote-control-cct-ios.png"/>
-                        <img class="six columns" src="images/remote-control-scene-ios.png"/>
-                    </div>
-                    <li>编辑组<br/>在操作界面中点击右上角编辑按钮进入编辑组界面，在编辑组界面中，你可以修改组的名字以及调整组中的设备。</li>
+                    <li>编辑组<br/>在操作界面中点击右上角<span style="color:red">编辑</span>按钮进入编辑组界面，修改组的名字以及增删组中的设备。</li>
                     <div class="row">
                         <img class="six columns" src="images/remote-group-set-ios.png"/>
                     </div>
-                </ol>
 
+
+                <br/>
 
                 <h2 id="android_produce">android操作简介</h2>
-
-
-
                 <h4 id="添加设备至Wifi-Andriod">添加设备至Wifi</h4>
                 <ol>
-                    <li>在手机设置无线局域网界面中找到灯泡的Wi-Fi网络，（全彩灯泡的网络名称“SLRG B******”）,并确认连接成功。</li>
+                    <li>点击右上角的<span style="color: red">+</span>按钮，再点<span style="color: red">添加灯</span>按钮</li>
                     <div class="row">
-                        <img class="six columns" src="images/android/zh/zh_search_wifi.png"/>
+                        <img  class="six columns" src="images/android/zh/android_zh_add_device.png"/>
                     </div>
-                    <li>打开Stellar Wi-Fi应用,点击右上角[+] → [添加设备],点击[检测到可添加设备]，选择设备并点击[保存]</li>
+
+                    <li>确认灯是点亮的状态，然后点<span style="color: red">下一步</span>按钮</li>
                     <div class="row">
-                      <!--   <img class="six columns" src="images/android/zh/addDevice_1.png"/> -->
+                        <img  class="six columns" src="images/android/zh/android_zh_install.png"/>
+                    </div>
+
+                    <li>进入设置导航界面，然后点<span style="color: red">连接WiFi</span>按钮，进入手机无线网络设置界面,选择点击连接球泡灯wifi网络（全彩灯泡的网络名称“SLRG B******”）并确保连接成功</li>
+                    <div class="row">
+                        <img  class="six columns" src="images/android/zh/android_zh_joining.png"/>
+                        <img  class="six columns" src="images/android/zh/android_zh_phone_wifi.png"/>
+                    </div>
+
+                    <li>选择目标网络，设置密码，最后点击<span style="color: red">保存</span>按钮，将灯加入目标网络，此操作可能需要1分钟左右，加入成功后返回主界面</li>
+                    <div class="row">
+                        <img  class="six columns" src="images/android/zh/android_zh_joinwifi.png"/>
+                    </div>
+
+                    <!-- <li>在手机设置无线局域网界面中找到灯泡的Wi-Fi网络，（全彩灯泡的网络名称“SLRG B******”）,并确认连接成功。</li>
+                     <div class="row">
+                         <img class="six columns" src="images/android/zh/zh_search_wifi.png"/>
+                     </div>-->
+
+                    <!--<li>打开Stellar Wi-Fi应用,点击右上角[+] → [添加设备],点击[检测到可添加设备]，选择设备并点击[保存]</li>
+                    <div class="row">
+                        &lt;!&ndash;   <img class="six columns" src="images/android/zh/addDevice_1.png"/> &ndash;&gt;
                         <img class="six columns" src="images/android/zh/addDevice_2.png"/>
-                        <!-- <img class="six columns" src="images/android/zh/addDevice_3.png"/> -->
+                        &lt;!&ndash; <img class="six columns" src="images/android/zh/addDevice_3.png"/> &ndash;&gt;
                         <img class="six columns" src="images/android/zh/addDevice_4.png"/>
-                    </div>
-                    <li>进入主界面，点击灯进入控制界面，点击右上角按钮进入设置界面</li>
+                    </div>-->
+
+
+                    <!--<li>进入主界面，点击灯一栏进入控制界面，再点击右上角按钮进入设置界面</li>
                     <div class="row">
                         <img class="six columns" src="images/android/zh/zh_add_wifi_light.png"/>
                         <img class="six columns" src="images/android/zh/localCCT.png"/>
@@ -217,9 +256,9 @@
                     <li>点击[无线网络],选择你想加入WiFi的名称并输入其密码，最后点击[保存]，这个过程大约需要30s。</li>
                     <div class="row">
                         <img class="six columns" src="images/android/zh/zh_add_wifi.png"/>
-                    </div>
+                    </div>-->
 
-                    <li>当提示链接成功后，切换wifi，返回Stellar WiFi，就能找到在列表中找到灯啦。(如果多次刷新列表都没有找到灯，请重新尝试上述步骤)</li>
+                    <li>当提示连接成功后，切换wifi，返回Stellar WiFi主界面，就能找到在列表中找到灯啦。(如果多次刷新列表都没有找到灯，请重新尝试上述步骤)</li>
                     <div class="row">
                         <img class="six columns" src="images/android/zh/zh_add_wifi_light.png"/>
                         <!-- <img class="six columns" src="images/search-ios-5.png"/> -->
@@ -227,18 +266,21 @@
                 </ol>
 
 
-
                 <h4 id="游客模式-Andriod">游客模式</h4>
                 <p>
-                    游客模式是指用户在未登录的情况下使用stellar Wifi，用户只能控制已经被添加到当前wifi中的灯。
-                    <br/>通过侧边栏的退出登录，并在弹出的登录界面中选择游客模式进入该模式。
+                    游客模式是指用户在未登录的情况下使用stellar Wifi，用户只能控制已经被添加到当前wifi中的灯。<br/>
+                    通过侧边栏的退出登录，在弹出的登录界面中选择游客模式进入该模式。
                 </p>
                 <div class="row">
-                    <img class="six columns" src="images/android/zh/zh_login.png"/>
+                    <img class="six columns" src="images/android/zh/android_zh_login.png"/>
                     <!-- <img class="six columns" src="images/menu-tourist-ios.png"/> -->
                 </div>
                 <ol>
-                    <li>点击灯泡进入控制界面。如果是彩色灯则显示彩色控制界面，如果是色温灯则显示色温控制界面</li>
+                    <li>进入灯列表主界面</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/android_zh_lightlist.png"/>
+                    </div>
+                    <li>点击列表任一灯泡进入控制界面。如果是彩色灯则显示彩色控制界面，如果是色温灯则显示色温控制界面</li>
                     <div class="row">
                         <img class="six columns" src="images/android/zh/localRGB.png"/>
                         <img class="six columns" src="images/android/zh/localCCT.png"/>
@@ -255,27 +297,62 @@
                     <div class="row">
                         <img class="six columns" src="images/android/zh/countDown_2.png"/>
                     </div>
+                    <li>修改灯名称<br/>点击右上角的图标进入到灯的设置界面，此时您可以修改灯的名称，获知灯的版本信息</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/android_zh_cct.png"/>
+                        <img class="six columns" src="images/android/zh/android_zh_setting.png"/>
+                    </div>
+                    <li>加入其他Wifi网络<br/>点击设置界面的<span style="color: red">无线网络</span>进入加入Wifi网络界面，可以将此灯加入到其他wifi以便进行远程操控
+                    </li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/android_zh_join_wifi.png"/>
+
+                    </div>
                 </ol>
-
-
 
                 <h4 id="登录模式-Andriod">登录模式</h4>
                 <p>登录模式是指用户在登录模式下使用Stellar Wifi,在登录模式下，可以使用Alexa功能</p>
                 <ol>
-                    <li>登录<br/>输入用户名、密码点击登录即可</li>
+                    <li>注册<br>打开应用进入登录界面，如果您还没有注册，请点击<span style="color: red;">注册账号</span>按钮，跳至注册界面键入有效邮箱地址和密码进行注册,注册成功后返回登录界面进行登陆
+                    </li>
                     <div class="row">
-                        <img class="six columns" src="images/android/zh/zh_login.png"/>
-                       <!--  <img class="six columns" src="images/android/zh/loginMain.png"/> -->
+                        <img class="six columns" src="images/android/zh/android_zh_login.png"/>
+                        <img class="six columns" src="images/android/zh/android_zh_regist.png">
+                    </div>
+                    <li>登录<br/>打开应用进入登陆界面，如果您已经有注册账号了，则输入用户名、密码，然后点击<span style="color: red;">登录</span>按钮进行登录即可</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/android_zh_login.png"/>
+                        <!--  <img class="six columns" src="images/android/zh/loginMain.png"/> -->
                     </div>
 
-                    <li>连接亚马逊（Alexa功能）<br/> 在侧边栏点击连接亚马逊按钮，后点击确认关联按钮，再根据亚马逊的提示完成操作，即可将你的账号关联至你的亚马逊账号，这要你就可以通过语音来控制你的灯啦。</li>
+                    <li>连接亚马逊（Alexa功能）<br/> 在侧边栏点击<span style="color: red">绑定亚马逊</span>按钮，然后确认关联，再根据亚马逊的提示完成操作，即可将你的账号关联至你的亚马逊账号，这时就可以通过语音来控制所连的灯啦。
+                    </li>
                     <div class="row">
                         <img class="six columns" src="images/android/zh/zh_binding_amazon.png"/>
                     </div>
 
-                    <li>其它操作，同游客模式</li>
+                    <li>其它操作，同游客模式，单控和组控的灯列表界面附图如下</li>
                     <div class="row">
-                        <img class="six columns" src="images/android/zh/loginMain.png"/>
+                        <img class="six columns" src="images/android/zh/android_zh_device_light_list.png"/>
+                        <img class="six columns" src="images/android/zh/android_zh_group_light_list.png"/>
+                    </div>
+                </ol>
+                <h4 id="侧边栏头像-Andriod">左侧边栏</h4>
+                <p>个人信息</p>
+                <ol>
+                    <li>确保在登录的状态下，点击侧边栏头像图标,进行个人信息的设置，否则会跳至登录界面</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/android_zh_sliding.png"/>
+                        <img class="six columns" src="images/android/zh/android_zh_personal_info.png"/>
+                    </div>
+
+                    <li>点击头像一栏，设置头像</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/android_zh_personal_info_head.png"/>
+                    </div>
+                    <li>点击昵称一栏，修改昵称</li>
+                    <div class="row">
+                        <img class="six columns" src="images/android/zh/android_zh_personal_info_nickname.png"/>
                     </div>
                 </ol>
 
