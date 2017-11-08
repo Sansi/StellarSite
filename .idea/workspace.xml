@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24543577-8942-4b79-af47-7f9e54063b07" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_add_device.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_cct.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_device_light_list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_group_light_list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_install.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_join_wifi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_joining.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_joinwifi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_lightlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_personal_info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_personal_info_head.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_personal_info_nickname.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_phone_wifi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_regist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_scene.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_setting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_sliding.png" />
+    <list default="true" id="24543577-8942-4b79-af47-7f9e54063b07" name="Default" comment="stellar wifi 网页说明书android中文修改更新">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/en/images/android/en/an_en_add_device.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/en/images/android/en/an_en_cct.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/en/images/android/en/an_en_device_list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/en/images/android/en/an_en_login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/en/images/android/en/an_en_nickname.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/en/images/android/en/an_en_register.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/en/images/android/en/an_en_rename.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/en/images/android/en/an_en_rgb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/en/images/android/en/an_en_scene.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/en/images/android/en/an_en_sliding.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_add_device.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_cct.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_device_list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_nikename.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_register.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_rename.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_rgb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_scene.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_sliding.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/zhs/images/android/zh/webstorm64.lnk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/index.html" afterPath="$PROJECT_DIR$/help/en/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/index.html" afterPath="$PROJECT_DIR$/help/zhs/index.html" />
     </list>
     <ignored path="StellarSite.iws" />
@@ -42,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/help/zhs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="354" column="21" lean-forward="false" selection-start-line="354" selection-start-column="21" selection-end-line="354" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="347" column="21" lean-forward="false" selection-start-line="205" selection-start-column="15" selection-end-line="347" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#li#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#li#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -68,57 +71,37 @@
                 <element signature="n#style#0;n#div#21;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#li#15;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#li#0;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#li#0;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#li#1;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#2;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#3;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#6;n#ol#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#0;n#ol#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#1;n#ol#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#2;n#ol#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#0;n#ol#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#li#0;n#ol#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#1;n#ol#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#2;n#ol#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#3;n#ol#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#4;n#ol#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/help/en/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5214">
-              <caret line="237" column="109" lean-forward="false" selection-start-line="237" selection-start-column="109" selection-end-line="237" selection-end-column="109" />
+            <state relative-caret-position="73">
+              <caret line="414" column="0" lean-forward="true" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#0;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#1;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1510106058748" expanded="false" signature="12449:12459" ph="..." />
+                <marker date="1510106058748" expanded="false" signature="12533:12543" ph="..." />
+                <marker date="1510106058748" expanded="false" signature="12815:12825" ph="..." />
+                <marker date="1510106058748" expanded="false" signature="13075:13085" ph="..." />
+                <marker date="1510106058748" expanded="false" signature="13609:13619" ph="..." />
+                <marker date="1510106058748" expanded="false" signature="17270:17280" ph="..." />
+                <marker date="1510106058748" expanded="false" signature="17891:17902" ph="..." />
+                <marker date="1510106058748" expanded="false" signature="18313:18324" ph="..." />
+                <marker date="1510106058748" expanded="false" signature="18701:18711" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skeleton.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/help/css/skeleton.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7414">
-              <caret line="337" column="4" lean-forward="false" selection-start-line="337" selection-start-column="4" selection-end-line="337" selection-end-column="4" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -159,13 +142,20 @@
         <option value="$PROJECT_DIR$/help/css/luxbar.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/help/en/index.html" />
         <option value="$PROJECT_DIR$/help/zhs/index.html" />
+        <option value="$PROJECT_DIR$/help/en/index.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -191,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -203,7 +192,42 @@
             <path>
               <item name="StellarSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="StellarSite" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StellarSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StellarSite" type="462c0819:PsiDirectoryNode" />
               <item name="help" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StellarSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StellarSite" type="462c0819:PsiDirectoryNode" />
+              <item name="help" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StellarSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StellarSite" type="462c0819:PsiDirectoryNode" />
+              <item name="help" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StellarSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StellarSite" type="462c0819:PsiDirectoryNode" />
+              <item name="help" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StellarSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StellarSite" type="462c0819:PsiDirectoryNode" />
+              <item name="help" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StellarSite" type="b2602c69:ProjectViewProjectNode" />
@@ -239,6 +263,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -254,6 +279,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\StellarSite\StellarSite\help\en\images\android\en" />
       <recent name="E:\StellarSite\StellarSite\help\zhs\images\android\zh" />
       <recent name="$PROJECT_DIR$/img/qr" />
       <recent name="$PROJECT_DIR$/help/en/images" />
@@ -271,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -651,6 +677,12 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/StellarSite/help/en/index.html" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -689,7 +721,22 @@
       <workItem from="1494897762463" duration="2213000" />
       <workItem from="1495009387833" duration="329000" />
       <workItem from="1495009782953" duration="866000" />
-      <workItem from="1502939901263" duration="666000" />
+      <workItem from="1502939901263" duration="3494000" />
+      <workItem from="1502959754704" duration="1114000" />
+      <workItem from="1503377485356" duration="644000" />
+      <workItem from="1504487721664" duration="749000" />
+      <workItem from="1505719463014" duration="16000" />
+      <workItem from="1509703749430" duration="640000" />
+      <workItem from="1510033201201" duration="1451000" />
+      <workItem from="1510035056919" duration="1807000" />
+      <workItem from="1510036903802" duration="1794000" />
+      <workItem from="1510038720504" duration="1764000" />
+      <workItem from="1510040531874" duration="757000" />
+      <workItem from="1510042352913" duration="1250000" />
+      <workItem from="1510045394243" duration="606000" />
+      <workItem from="1510102132384" duration="1703000" />
+      <workItem from="1510103861059" duration="1794000" />
+      <workItem from="1510105671393" duration="1318000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1502939965328</created>
@@ -698,25 +745,32 @@
       <option name="project" value="LOCAL" />
       <updated>1502939965328</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="stellar wifi 网页说明书android中文修改更新">
+      <created>1502940667272</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1502940667272</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60984000" />
+    <option name="totallyTimeSpent" value="81219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21564482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21617337" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08529742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17508417" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39955106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -783,7 +837,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="stellar wifi 网页说明书android中文修改更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="stellar wifi 网页说明书android中文修改更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -794,169 +849,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/help/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help/zhs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#li#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#3;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#4;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#4;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#6;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#13;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h5#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h5#3;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h5#4;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#19;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#14;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#14;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#21;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#15;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#0;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#1;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#2;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#3;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#6;n#ol#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#ol#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#1;n#ol#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#2;n#ol#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/plugins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help/en/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help/css/skeleton.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/plugins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help/en/images/control-ios.png" />
-    <entry file="file://$PROJECT_DIR$/help/en/images/control-android.png" />
-    <entry file="file://$PROJECT_DIR$/help/zhs/images/mode-ios.png" />
-    <entry file="file://$PROJECT_DIR$/help/zhs/images/music-ios.png" />
-    <entry file="file://$PROJECT_DIR$/js/wow.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/plugins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/block.rnc" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/favicons/apple-touch-icon-57x57.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/favicons/favicon-32x32.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fotorama/fotorama.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help/images/system.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help/zhs/images/remote-group-ios.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/sectional.rnc" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/common.rnc" />
     <entry file="file://$PROJECT_DIR$/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1029,14 +921,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/help/css/skeleton.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/help/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
@@ -1069,22 +953,132 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7414">
           <caret line="337" column="4" lean-forward="false" selection-start-line="337" selection-start-column="4" selection-end-line="337" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="22">
           <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/css/skeleton.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_add_device.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_install.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_joining.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/zh_add_wifi_light.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_login.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_lightlist.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_cct.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/android_zh_personal_info_nickname.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_add_device.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_cct.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_device_list.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_scene.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_sliding.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_rgb.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_rename.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_register.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_login.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/en/images/addBulb.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/zhs/images/android/zh/an_zh_nikename.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/en/images/android/en/an_en_sliding.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/en/images/android/en/an_en_nickname.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/help/zhs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="354" column="21" lean-forward="false" selection-start-line="354" selection-start-column="21" selection-end-line="354" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="347" column="21" lean-forward="false" selection-start-line="205" selection-start-column="15" selection-end-line="347" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#span#0;n#li#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1106,24 +1100,59 @@
             <element signature="n#style#0;n#div#21;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#15;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#0;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#1;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#2;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#3;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#6;n#ol#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#ol#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#1;n#ol#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#2;n#ol#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#ol#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#li#0;n#ol#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#1;n#ol#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#2;n#ol#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#3;n#ol#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#4;n#ol#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/help/en/images/android/en/an_en_add_device.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/en/images/android/en/localScene.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/en/images/android/en/countDown_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/en/images/android/en/add_other_wifi.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/en/images/android/en/avatar.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/help/en/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5214">
-          <caret line="237" column="109" lean-forward="false" selection-start-line="237" selection-start-column="109" selection-end-line="237" selection-end-column="109" />
+        <state relative-caret-position="73">
+          <caret line="414" column="0" lean-forward="true" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#input#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#1;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1510106058748" expanded="false" signature="12449:12459" ph="..." />
+            <marker date="1510106058748" expanded="false" signature="12533:12543" ph="..." />
+            <marker date="1510106058748" expanded="false" signature="12815:12825" ph="..." />
+            <marker date="1510106058748" expanded="false" signature="13075:13085" ph="..." />
+            <marker date="1510106058748" expanded="false" signature="13609:13619" ph="..." />
+            <marker date="1510106058748" expanded="false" signature="17270:17280" ph="..." />
+            <marker date="1510106058748" expanded="false" signature="17891:17902" ph="..." />
+            <marker date="1510106058748" expanded="false" signature="18313:18324" ph="..." />
+            <marker date="1510106058748" expanded="false" signature="18701:18711" ph="..." />
           </folding>
         </state>
       </provider>
