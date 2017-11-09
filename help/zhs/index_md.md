@@ -116,10 +116,10 @@ iOS 用户在“App Store”中搜索并安装“Stellar Wi-Fi”。
 三思智能球泡灯可以接入Alexa语音平台，使用语音对球泡灯进行控制。（关于如何配置Echo，前查看亚马逊Alexa的相关帮助）
 
 1. 点击侧边栏***关联亚马逊***按钮。
-![login](./images/alexaNormal.png)
+![login](./images/alexaNormal.PNG)
 * 点击***确认关联***，根据提示绑定你的亚马逊账号。
-![login](./images/alexaSuccess.png)
-![login](./images/alexaFinish.png)
+![login](./images/alexaSuccess.PNG)
+![login](./images/alexaFinish.PNG)
 * 前往Alexa App，在侧边栏点击***Skill***，通过搜索找到**Stellar Wifi**，设置其为**Enable**
 
 ## 7. Alexa使用说明
