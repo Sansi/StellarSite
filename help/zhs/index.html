@@ -1,400 +1,571 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <!-- Basic Page Needs
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
-    <title>Stellar Wi-Fi 快速安装指南</title>
-    <meta name="description" content="Stellar Wi-Fi 快速安装指南 中文版">
-    <meta name="author" content="卿培">
-    <!-- Mobile Specific Metas
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSS
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/skeleton.css">
-    <!--<link href="../../css/style.min.css" rel="stylesheet">-->
-    <!--<link  href="../../fotorama/fotorama.css" rel="stylesheet">-->
-    <!--<link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
-    <!-- Favicon
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="../../img/favicons/favicon-32x32.png">
-    <link rel="stylesheet" href="../css/luxbar.min.css">
-    <script>
-        function hideNav()
-        {
-            var box1 =  document.getElementById("luxbar-checkbox");
-            if (box1.type === "checkbox"){
-                box1.checked = false;
 
-            }
-        }
-    </script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>index</title>
+<link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<script src="http://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
 </head>
+
 <body>
-<div class="container">
-    <header id="luxbar" class="luxbar-fixed">
-        <input type="checkbox" style="display:none" class="luxbar-checkbox" id="luxbar-checkbox"/>
-        <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
-            <ul class="luxbar-navigation">
-                <li class="luxbar-header">
-                    <a href="#home" class="luxbar-brand">Stellar Wi-Fi使用说明</a>
-                    <label class="luxbar-hamburger luxbar-hamburger-doublespin"
-                           id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
-                </li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#获取应用">获取应用</a></li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#安装设备">安装设备</a></li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#ios操作简介">ios操作简介</a></li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#android_produce">android操作简介</a></li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#灯泡恢复出厂设置步骤">灯泡恢复出厂设置步骤</a></li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#运行环境需求">运行环境需求</a></li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#联系我们">联系我们</a></li>
-            </ul>
-        </div>
-    </header>
-    <div class="row" id="home">
-        <!-- <div class="eight columns" style="margin-top: 25%"> -->
-        <article class="post">
-            <header class="post-header">
-            </header>
-            <section class="post-content">
-                <div class="row">
-                    <img class="six columns" src="../images/system.png"/>
-                </div>
-                <h2 id="简介">简介</h2>
 
-                <p>Stellar Wi-Fi 应用无线控制三思智能球泡灯，开、关无级调节亮度，可选择自己喜欢的颜色。灯泡内置了8种预设场景。您还可以通过曲库中的歌曲与灯泡互动。</p>
+<p><img src="./images/system.png" alt="system"></p>
 
-                <h2 id="获取应用">获取应用</h2>
+<h1 id="toc_0">简介</h1>
 
-                <p>
-                    iOS 用户在“App Store”中搜索并安装“Stellar Wi-Fi”。<br/>安卓用户在Google Play、豌豆荚中搜索并安装“Stellar Wi-Fi”。<br/>或扫描下方二维码，下载应用。
-                </p>
+<p>Stellar Wi-Fi 应用无线控制三思智能球泡灯，开、关无级调节亮度，可选择自己喜欢的颜色。灯泡内置了8种预设场景。您还可以通过曲库中的歌曲与灯泡互动。</p>
 
-                <div class="row">
-                    <img class="three columns" src="../../img/qr/stellarWiFi.png"/>
-                </div>
-                <br/>
+<h1 id="toc_1">获取应用</h1>
 
-                <h2 id="安装设备">安装设备</h2>
+<p>iOS 用户在“App Store”中搜索并安装“Stellar Wi-Fi”。
+安卓用户在Google Play、豌豆荚中搜索并安装“Stellar Wi-Fi”。
+或扫描下方二维码，下载应用。</p>
 
-                <p>将灯泡拧入灯座，打开电源开关。</p>
-                <img src="../images/install-bulb.png"/>
+<p><img src="./images/stellarWiFi.png" alt="QR"></p>
 
-                <h2 id="ios操作简介">iOS 操作简介</h2>
+<h1 id="toc_2">安装设备</h1>
 
-                <h4 id = "register">1. 注册账号</h4>
-                <li>打开Stellar Wi-Fi 应用，点击<span style="color:red;">注册账号</span>按钮</li>
-                <li>输入正确有效邮箱和任意有效登录密码，点击<span style="color:red;">提交</span>按钮将自动登录到APP主页</li>
-                <div class="row">
-                    <img class="six columns" src="images/login.PNG" />
-                    <img class="six columns" src="images/register.PNG" />
-                </div>
+<p>将灯泡拧入灯座，打开电源开关。</p>
 
-                <h4 id="添加设备至Wifi">2. 将设备添加到目标WiFi</h4>
-                <li>点击右上角<span style="color:red">＋</span>按钮，点击<span style="color:red">添加灯</span>按钮</li>
-                <div class="row">
-                        <img class="six columns" src="images/addBulb.PNG"/>
-                    </div>
-                <li>确认灯是点亮状态，点击<span style="color:red">下一步</span></li>
-                <li>点击<span style="color:red">选择无线网</span>。会跳到手机<span style="color:red">设置->无线网设置</span>界面</li>
-                 <div class="row">
-                        <img class="six columns" src="images/searchBulb.PNG"/>
-                        <img class="six columns" src="images/searchWiFi.PNG"/>
-                    </div>
-                <li>点击连接球泡灯Wi-Fi网络,并确认连接成功</li>
-                <div style="color:red">注：<br>全彩球泡灯网络名称类似 SLRGB*********<br>首次连接可能等待时间稍长</div>
-                    <div class="row">
-                        <img class="six columns" src="images/connect-wifi-ios.png"/>
-                    </div>
-                <li>首次加入目标WiFi需要手动输入WiFi名称和密码，点击<span style="color:red">加入</span>按钮。此过程需要大约30s</li>
-                <li>WiFi密码和账号输入无误后，点击<span style="color:red">选择无线网路</span>会跳到手机<span style="color:red">设置->无线网设置</span>界面，选择目标WiFi，点击连接后返回Stellar Wi-Fi</li>
-                    <div class="row">
-                        <img class="six columns" src="images/joinNetwork.PNG"/>
-                        <img class="six columns" src="images/connectRight.PNG"/>
-                    </div>
-                    <li>App会自动搜索假如成功的球泡灯，显示在主页，成功加入</li>
-                    <div style="color:red">注：<br>如果长时间都没有找到灯，请查看手机是否连接目标WiFi或以上步骤错误</div>
-                    <h4>3. 功能使用操作</h4>
-                    <h5><1> 彩色球泡灯</h5>
-                        <h5><2>色温球泡灯：暂仅支持色温调控和倒计时开关</h5>
-                    <li>颜色调控</li>
-                    <div class="row">
-                        <img class="six columns" src="images/remote-control-rgb-ios.png"/>
-                    </div>
-                    <li>色温调控</li>
-                    <div class="row">
-                       <img class="six columns" src="images/remote-control-cct-ios.png"/>
-                    </div>
-                    <li>音乐模式<br/>点击左上角的音乐选择按钮，选择喜欢的音乐，感受光随音乐而动的美。</li>
-                    <div class="row">
-                        <img class="six columns" src="images/setMusic-ios.PNG"/>
-                    </div>
-                    <li>场景模式<br/>场景模式为您提供了8种不同的场景模式，点击场景名选择不同场景，感受不同颜色不同频率的渐变。</li>
-                    <div class="row">
-                        <img class="six columns" src="images/remote-control-scene-ios.png"/>
-                    </div>
-                    <li>倒计时功能</li>
-                    <div style="color:red">注：<br>软件版本号 > 2，且灯所在WiFi和手机连接WiFi是同一个WiFi</div>
-                    <div class="row">
-                        <img class="six columns" src="images/timeSelect.PNG"/>
-                        <img class="six columns" src="images/timeRun.PNG"/>
-                    </div>
-                    <li>设置<br/>在设置界面中，灯可操作属性：<br/>
-                        <ul>
-                            <li>修改灯名称</li>
-                            <li>倒计时开关</li>
-                            <li>切换灯WiFi</li>
-                            <li>是否允许远程控制</li>
-                            <li>重置灯（提示：灯会恢复出厂设置）</li>
-                        </ul>
-                        灯不可操作属性：<br>
-                        <ul>
-                            <li>灯的Mac地址</li>
-                            <li>灯的类型</li>
-                            <li>灯的软件版本</li>
-                            <li>灯的硬件版本</li>
-                        </ul>
-                    </li>
-                    <div class="row">
-                        <img class="six columns" src="images/setBulb.PNG"/>
-                    </div>
-                    <h4>左侧边栏</h4>
-                    <div class="row">
-                        <img class="six columns" src="images/leftMenu.PNG"/>
-                    </div>
-                    <ul>
-                        <li>头像设置</li>
-                        <li>昵称显示</li>
-                        <li>在线帮助</li>
-                        <li>关联亚马逊</li>
-                        <li>账号及密码设置</li>
-                    </ul>
-                    <h5>1. 点击<span style="color:red">头像icon</span>，进入个人信息界面，点击头像所在行设置头像，点击昵称所在行设置昵称</h5>
-                    <div class="row">
-                        <img class="six columns" src="images/leftInfo.PNG"/>
-                    </div>
-                    <h5>2. 点击<span style="color:red">设置</span>，进入设置界面，重置密码和关于我们</h5>
-                     <div class="row">
-                        <img class="six columns" src="images/leftReset.PNG"/>
-                    </div>
-                    <h5>3.（Alexa功能）<br/>点击<span style="color:red">关联亚马逊</span>进入配置亚马逊功能界面，实现语音控制灯<br>
-                    </h5>
-                    <div style="color:red">注：
-                    <li>App账号及密码是登录状态</li>
-                    <li>亚马逊账号注册或登录</li>
-                    <li>echo设备支持</li>
-                    </div>
-                    <div class="row">
-                        <img class="six columns" src="images/remote-Alexa-ios.png"/>
-                    </div>
-                    <h4>组操作</h4>
-                    <li>添加组<br/>点击右上角<span style="color:red">＋</span>按钮，点击<span style="color:red">添加组</span>输入组名，选择设备即可添加新的分组</li>
-                    <div style="color:red">注：<br>一个设备只能被添加到一个组中，如果选择别的组中的设备，则会将该设备从原有分组中移除</div>
-                    <div class="row">
-                        <img class="six columns" src="images/remote-add-ios.png"/>
-                        <img class="six columns" src="images/remote-group-add-ios.png"/>
-                        <img class="six columns" src="images/remote-group-ios.png"/>
-                    </div>
-                    <li>编辑组<br/>在操作界面中点击右上角<span style="color:red">编辑</span>按钮进入编辑组界面，修改组的名字以及增删组中的设备。</li>
-                    <div class="row">
-                        <img class="six columns" src="images/remote-group-set-ios.png"/>
-                    </div>
+<p><img src="./images/install-bulb.png" alt="install"></p>
 
+<h1 id="toc_3">APP操作简介</h1>
 
-                <br/>
+<h2 id="toc_4">1. 注册账号</h2>
 
-                <h2 id="android_produce">android操作简介</h2>
+<ul>
+<li>打开Stellar Wi-Fi 应用，点击注册账号按钮。（账号名不能超过）</li>
+</ul>
 
-                <h4 id="登录模式-Andriod">登录</h4>
-                <p>登录是指用户在登录模式下使用Stellar Wifi,在登录模式下，可以使用Alexa功能</p>
-                <ol>
-                    <li>注册<br>打开应用进入登录界面，如果您还没有注册，请点击<span style="color: red;">注册账号</span>按钮，跳至注册界面键入有效邮箱地址和密码进行注册,注册成功后返回登录界面进行登陆
-                    </li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/an_zh_login.png"/>
-                        <img class="six columns" src="images/android/zh/an_zh_register.png">
-                    </div>
-                    <li>登录<br/>打开应用进入登陆界面，如果您已经有注册账号了，则输入用户名、密码，然后点击<span style="color: red;">登录</span>按钮进行登录即可</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/an_zh_login.png"/>
-                        <!--  <img class="six columns" src="images/android/zh/loginMain.png"/> -->
-                    </div>
+<p><img src="./images/login.PNG" alt="login"></p>
 
-                   <!-- <li>连接亚马逊（Alexa功能）<br/> 在侧边栏点击<span style="color: red">绑定亚马逊</span>按钮，然后确认关联，再根据亚马逊的提示完成操作，即可将你的账号关联至你的亚马逊账号，这时就可以通过语音来控制所连的灯啦。
-                    </li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/zh_binding_amazon.png"/>
-                    </div>-->
+<ul>
+<li>输入正确有效邮箱和任意有效登录密码，点击提交按钮将自动登录到APP主页。</li>
+</ul>
 
-                </ol>
+<p><img src="./images/register.PNG" alt="login"></p>
 
-                <h4 id="添加设备至Wifi-Andriod">添加设备至Wifi</h4>
-                <ol>
-                    <li>点击右上角的<span style="color: red">+</span>按钮，再点<span style="color: red">添加灯</span>按钮</li>
-                    <div class="row">
-                        <img  class="six columns" src="images/android/zh/an_zh_add_device.png"/>
-                    </div>
+<h2 id="toc_5">2. 账号管理</h2>
 
-                    <li>确认灯是点亮的状态，然后点<span style="color: red">下一步</span>按钮</li>
-                    <div class="row">
-                        <img  class="six columns" src="images/android/zh/android_zh_install.png"/>
-                    </div>
+<ul>
+<li>点击侧边栏中的头像图标进入用户信息界面，你可以修改你的头像和昵称。</li>
+</ul>
 
-                    <li>进入设置导航界面，然后点<span style="color: red">连接WiFi</span>按钮，进入手机无线网络设置界面,选择点击连接球泡灯wifi网络（全彩灯泡的网络名称“SLRG B******”）并确保连接成功</li>
-                    <div class="row">
-                        <img  class="six columns" src="images/android/zh/android_zh_joining.png"/>
-                        <img  class="six columns" src="images/android/zh/android_zh_phone_wifi.png"/>
-                    </div>
+<p><img src="./images/leftMenu.PNG" alt="login">
+<img src="./images/leftInfo.PNG" alt="login"></p>
 
-                    <li>选择目标网络，设置密码，最后点击<span style="color: red">保存</span>按钮，将灯加入目标网络，此操作可能需要1分钟左右，加入成功后返回主界面</li>
-                    <div class="row">
-                        <img  class="six columns" src="images/android/zh/android_zh_joinwifi.png"/>
-                    </div>
+<ul>
+<li>点击侧边栏中的<strong><em>设置</em></strong>按钮进入设置界面，你可以退出登录、修改密码或者进入关于我们界面。</li>
+</ul>
 
-                    <!-- <li>在手机设置无线局域网界面中找到灯泡的Wi-Fi网络，（全彩灯泡的网络名称“SLRG B******”）,并确认连接成功。</li>
-                     <div class="row">
-                         <img class="six columns" src="images/android/zh/zh_search_wifi.png"/>
-                     </div>-->
+<p><img src="./images/leftReset.PNG" alt="login">
+<img src="./images/resetPassword.PNG" alt="login"></p>
 
-                    <!--<li>打开Stellar Wi-Fi应用,点击右上角[+] → [添加设备],点击[检测到可添加设备]，选择设备并点击[保存]</li>
-                    <div class="row">
-                        &lt;!&ndash;   <img class="six columns" src="images/android/zh/addDevice_1.png"/> &ndash;&gt;
-                        <img class="six columns" src="images/android/zh/addDevice_2.png"/>
-                        &lt;!&ndash; <img class="six columns" src="images/android/zh/addDevice_3.png"/> &ndash;&gt;
-                        <img class="six columns" src="images/android/zh/addDevice_4.png"/>
-                    </div>-->
+<ul>
+<li>在关于我们界面，你可以访问我们公司的官网，或者发邮件联系我们。</li>
+</ul>
 
+<p><img src="./images/aboutUs.PNG" alt="login"></p>
 
-                    <!--<li>进入主界面，点击灯一栏进入控制界面，再点击右上角按钮进入设置界面</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/zh_add_wifi_light.png"/>
-                        <img class="six columns" src="images/android/zh/localCCT.png"/>
-                    </div>
-                    <li>在设置界面点击[无线网络]进行进入wifi界面</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/config.png"/>
-                        <img class="six columns" src="images/android/zh/zh_add_wifi.png"/>
-                    </div>
-                    <li>点击[无线网络],选择你想加入WiFi的名称并输入其密码，最后点击[保存]，这个过程大约需要30s。</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/zh_add_wifi.png"/>
-                    </div>-->
+<h2 id="toc_6">3. 将设备添加到目标WiFi及个人账户</h2>
 
-                    <li>当提示连接成功后，切换wifi，返回Stellar WiFi主界面，就能找到在列表中找到灯啦。(如果多次刷新列表都没有找到灯，请重新尝试上述步骤)</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/an_zh_device_list.png"/>
-                        <!-- <img class="six columns" src="images/search-ios-5.png"/> -->
-                    </div>
-                </ol>
+<p>请按照以下步骤操作，如有疑问可以观看视频。</p>
 
+<h3 id="toc_7">ios操作流程</h3>
 
-                <h4 id="游客模式-Andriod">操作灯</h4>
-                <p>
-                    点击列表任一灯泡进入控制界面,对灯进行色温，亮度，颜色以及场景的控制。
-                </p>
+<ol>
+<li>点击右上角<strong><em>＋</em></strong>按钮，点击<strong><em>添加灯</em></strong>按钮。</li>
+<li>确认灯是点亮状态，点击下一步。</li>
+<li>点击选择无线网。会跳到手机设置-&gt;无线网设置界面。</li>
+<li>点击连接球泡灯Wi-Fi网络,并确认连接成功（全彩球泡灯网络名称类似 SLRGB*********首次连接可能等待时间稍长）。</li>
+<li>首次加入目标WiFi需要手动输入WiFi名称和密码，点击加入按钮。此过程需要大约30s。</li>
+<li>WiFi密码和账号输入无误后，点击选择无线网路会跳到手机设置-&gt;无线网设置界面，选择目标WiFi，点击连接后返回Stellar Wi-Fi。</li>
+</ol>
 
-                <ol>
-                    <li>进入灯列表主界面</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/an_zh_device_list.png"/>
-                    </div>
-                    <li>例如单控，点击列表任一灯泡进入控制界面。如果是彩色灯则显示彩色控制界面，如果是色温灯则显示色温控制界面，组控类似</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/an_zh_rgb.png"/>
-                        <img class="six columns" src="images/android/zh/an_zh_cct.png"/>
-                    </div>
-                    <!--<li>音乐模式（颜色随音乐而动，彩色灯特有）<br/>点击左上角的音乐选择按钮，选择喜欢的音乐，感受光随音乐而动的美。</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/localMusic.png"/>
-                    </div>-->
-                    <li>场景模式（彩色灯特有）<br/>场景模式为您提供了8种不同的场景模式，点击选择不同场景，感受不同颜色不同频率的渐变。</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/an_zh_scene.png"/>
-                    </div>
-                    <!--<li>倒计时功能（版本>2.0）<br>点击控制住界面上开关按钮右边的倒计时按钮</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/countDown_2.png"/>
-                    </div>-->
-                    <li>修改灯名称<br/>点击右上角的图标进入到灯的设置界面，此时您可以修改灯的名称，获知灯的版本信息</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/an_zh_cct.png"/>
-                        <img class="six columns" src="images/android/zh/an_zh_rename.png"/>
-                    </div>
-                    <li>加入其他Wifi网络<br/>点击设置界面的<span style="color: red">无线网络</span>进入加入Wifi网络界面，可以将此灯加入到其他wifi以便进行远程操控
-                    </li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/android_zh_join_wifi.png"/>
-
-                    </div>
-                </ol>
-
-                <h4 id="侧边栏头像-Andriod">左侧边栏</h4>
-                <p>个人信息</p>
-                <ol>
-                    <li>确保在登录的状态下，点击侧边栏头像图标,进行个人信息的设置，否则会跳至登录界面</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/an_zh_sliding.png"/>
-                        <img class="six columns" src="images/android/zh/android_zh_personal_info.png"/>
-                    </div>
-
-                    <li>点击头像一栏，设置头像</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/android_zh_personal_info_head.png"/>
-                    </div>
-                    <li>点击昵称一栏，修改昵称</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/zh/an_zh_nikename.png"/>
-                    </div>
-                </ol>
-
-
-
-                <h2 id="灯泡恢复出厂设置步骤">灯泡恢复出厂设置步骤</h2>
-                <ol>
-                    <li>关闭灯泡电源，等待10秒。</li>
-                    <li>将下列操作重复3次：</li>
-                    <ol>
-                        <li>打开灯泡电源。</li>
-                        <li>当灯泡亮起后，即刻关闭电源。</li>
-                        <li>等待4秒。</li>
-                    </ol>
-                    <li>第4次打开灯泡电源，等待30秒。</li>
-                </ol>
-                <p>
-                    灯泡恢复出厂设置后，将依照下述顺序变化“红光渐变、绿光渐变、蓝光渐变最后停止为白光”(RGBW球泡灯)并进入Wi-Fi接入点模式。
-                </p>
-
-                <h2 id="运行环境需求">运行环境需求</h2>
-
-                <p>
-                    Stellar Wi-Fi应用可以在如下平台运行：
-                </p>
-                <ol>
-                    <li>运行 iOS 8.0 及以上版本的 iOS 设备。</li>
-                    <li>安卓4.2及以上机型。</li>
-                </ol>
-                <p>
-                    您还需要一个或多个三思智能球泡灯。
-                </p>
-
-                <h2 id="联系我们">联系我们</h2>
-
-                <p>
-                    获取智能球泡灯产品的最新消息，请访问: <a href="http://www.sansitech.com">http://www.sansitech.com</a>；
-                </p>
-
-                <p>
-                    需要技术支持，请联系: <a href="mailto:service@sansitech.us?subject=Stellar Help">service@sansitech.us</a>。
-                    <!--或拨打：400-600-3434。-->
-                </p>
-            </section>
-        </article>
-        <!-- </div> -->
-    </div>
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src='http://player.youku.com/embed/XMzE0MzI4MjE4OA==' frameborder=0 'allowfullscreen'></iframe>
 </div>
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<h3 id="toc_8">Andriod操作流程</h3>
+
+<ol>
+<li>点击右上角<strong><em>＋</em></strong>按钮，点击<strong><em>添加灯</em></strong>按钮。</li>
+<li>确认灯是点亮的状态，然后点下一步按钮</li>
+<li>进入设置导航界面，然后点连接WiFi按钮，进入手机无线网络设置界面,选择点击连接球泡灯wifi网络（全彩灯泡的网络名称“SLRG B******”）并确保连接成功</li>
+<li>选择目标网络，设置密码，最后点击保存按钮，将灯加入目标网络，此操作可能需要1分钟左右，加入成功后返回主界面</li>
+<li>当提示连接成功后，切换wifi，返回Stellar WiFi主界面，就能找到在列表中找到灯啦。(如果多次刷新列表都没有找到灯，请重新尝试上述步骤)</li>
+</ol>
+
+<h2 id="toc_9">4. 设备升级</h2>
+
+<p>如果设备版本不是最新，则需要升级才能执行上述操作，升级步骤如下（个别设备可能需要多次升级）。</p>
+
+<ol>
+<li>点击右上角<strong><em>＋</em></strong>按钮，点击<strong><em>添加灯</em></strong>按钮。</li>
+<li>确认灯是点亮状态，点击下一步。</li>
+<li>点击选择无线网。会跳到手机设置-&gt;无线网设置界面。</li>
+<li>点击连接球泡灯Wi-Fi网络,并确认连接成功（全彩球泡灯网络名称类似 SLRGB*********首次连接可能等待时间稍长）。</li>
+<li>点击<strong><em>升级</em></strong>按钮。
+<img src="./images/update.PNG" alt="login"></li>
+<li>如果进度条卡主不动了，请点击<strong><em>cancel</em></strong>重新尝试。
+<img src="./images/updateProgress.PNG" alt="login"></li>
+<li>更新成功后，请重新执行2中的操作。
+<img src="./images/updateSuccess.PNG" alt="login"></li>
+</ol>
+
+<h2 id="toc_10">5. 设备控制</h2>
+
+<p>设备控制分为<strong>单控</strong>和<strong>组控</strong>两个部分。单控模式下，提供颜色、色温以及场景种控制界面（对于<strong><em>软件版本&lt;5的彩色（RGB）</em></strong>球泡灯，仅提供颜色、场景两种控制界面，对于<strong><em>单色（CCT）</em></strong>,仅提供色温一种控制界面）。组控模式下，根据组内所包含的设备类型，功能略有取舍。
+<img src="./images/remote-main-ios.png" alt="login">
+<img src="./images/remote-group-ios.png" alt="login"></p>
+
+<ul>
+<li>颜色控制界面</li>
+</ul>
+
+<p><img src="./images/remote-control-rgb-ios.png" alt="login"></p>
+
+<ul>
+<li>色温控制界面</li>
+</ul>
+
+<p><img src="./images/remote-control-cct-ios.png" alt="login"></p>
+
+<ul>
+<li>场景控制界面</li>
+</ul>
+
+<p><img src="./images/remote-control-scene-ios.png" alt="login"></p>
+
+<ul>
+<li>设备信息界面</li>
+</ul>
+
+<p><img src="./images/set-ios.png" alt="login"></p>
+
+<ul>
+<li>分组信息界面</li>
+</ul>
+
+<p><img src="./images/remote-group-set-ios.png" alt="login"></p>
+
+<p>关于分组需要注意的是，<strong><em>一个设备同时只能别添加到一个组中，如果你想将它添加到另一个分组中，它将会被从原有分组中移除</em></strong>。</p>
+
+<h2 id="toc_11">6. 接入Alexa语音控制平台</h2>
+
+<p>三思智能球泡灯可以接入Alexa语音平台，使用语音对球泡灯进行控制。（关于如何配置Echo，前查看亚马逊Alexa的相关帮助）</p>
+
+<ol>
+<li>点击侧边栏<strong><em>关联亚马逊</em></strong>按钮。
+<img src="./images/alexaNormal.png" alt="login"></li>
+<li>点击<strong><em>确认关联</em></strong>，根据提示绑定你的亚马逊账号。
+<img src="./images/alexaSuccess.png" alt="login">
+<img src="./images/alexaFinish.png" alt="login"></li>
+<li>前往Alexa App，在侧边栏点击<strong><em>Skill</em></strong>，通过搜索找到<strong>Stellar Wifi</strong>，设置其为<strong>Enable</strong></li>
+</ol>
+
+<h2 id="toc_12">7. Alexa使用说明</h2>
+
+<p>Echo Dot上有四个按钮，一个是静音禁唤醒按钮（意味着暂停使用），两个是音量输出增减按钮，剩下的一个按钮（小点）有三个功能，短按是唤醒功能，长按是进入设置状态，在蓝圈亮起时短按则是取消当前指令。对Echo Dot使用语音指令时，先说“Alexa”唤醒该设备（或者短按设备上的小点按钮），当设备亮起蓝圈后，再说具体的语音指令。</p>
+
+<p>具体指令：</p>
+
+<ul>
+<li>开/关灯：Alexa, Turn on/off [#name]. （例：Alexa, Turn on Office. 两个灯都会亮。或者按下设备上的小点按钮，然后说Turn on Office亦可）</li>
+<li>设置亮度：Alexa, Set [#name] to [#number] percent. （例：Alexa, Set Office Bulb One to sixty percent.）</li>
+<li>设置颜色：Alexa, Set [#name] to [#color]. （例：Alexa, Set Office Bulb One to green.）</li>
+</ul>
+
+<p>官网显示支持的颜色包括:</p>
+
+<blockquote>
+<p>Blue (蓝色)
+Crimson (深红色)
+Cyan (青色)
+Fuchsia (紫红色)
+Gold (金色)
+Green (绿色）
+Lavender（薰衣草色）
+Lime（石灰色）
+Magenta（品红色）
+Orange（橙色）
+Pink（粉红色）
+Purple（紫色）
+Red（红色）
+Salmon（鲑红色）
+Sky Blue（天蓝色）
+Teal（水鸭蓝）
+Turquoise（青绿色）
+Violet（紫罗兰色）
+Yellow（黄色）</p>
+</blockquote>
+
+<p>更多有关控制可参考官方文档:</p>
+
+<p><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=201749260">https://www.amazon.com/gp/help/customer/display.html?nodeId=201749260</a></p>
+
+<p>关于亚马逊的智能家居Alexa的更多使用帮助，可访问官方文档:</p>
+
+<p><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=201952240">https://www.amazon.com/gp/help/customer/display.html?nodeId=201952240</a></p>
+
+<h2 id="toc_13">8. 灯泡恢复出厂设置步骤</h2>
+
+<ol>
+<li>关闭灯泡电源，等待10秒。</li>
+<li>将下列操作重复3次：
+
+<ol>
+<li>打开灯泡电源。</li>
+<li>当灯泡亮起后，即刻关闭电源。</li>
+<li>等待4秒。</li>
+</ol></li>
+<li>第4次打开灯泡电源，等待30秒。</li>
+</ol>
+
+<p>灯泡恢复出厂设置后，将依照下述顺序变化“红光渐变、绿光渐变、蓝光渐变最后停止为白光”(RGBW球泡灯)并进入Wi-Fi接入点模式。</p>
+
+<h2 id="toc_14">9. 运行环境需求</h2>
+
+<p>Stellar Wi-Fi应用可以在如下平台运行：</p>
+
+<p>运行 iOS 8.0 及以上版本的 iOS 设备。
+安卓4.2及以上机型。
+您还需要一个或多个三思智能球泡灯。</p>
+
+<h2 id="toc_15">10. 联系我们</h2>
+
+<p>获取智能球泡灯产品的最新消息，请访问: </p>
+
+<p><a href="http://www.sansitech.com">http://www.sansitech.com</a>；</p>
+
+<p>需要技术支持，请联系: </p>
+
+<p><a href="mailto:service@sansitech.us?subject=Stellar%20Help">service@sansitech.us</a>。</p>
+
+
+
+
 </body>
+
 </html>
