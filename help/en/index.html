@@ -1,481 +1,598 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <!-- Basic Page Needs
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
-    <title>Stellar Wi-Fi Quick Start Guide</title>
-    <meta name="description" content="Stellar Wi-Fi Quick Start Guide">
-    <meta name="author" content="Pei Qing">
-    <!-- Mobile Specific Metas
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSS
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/skeleton.css">
-    <!-- Favicon
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="../../img/favicons/favicon-32x32.png">
-    <link rel="stylesheet" href="../css/luxbar.min.css">
-    <script>
-        function hideNav()
-        {
-            var box1 =  document.getElementById("luxbar-checkbox");
-            if (box1.type === "checkbox"){
-                box1.checked = false;
 
-            }
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<title>Stellar Wi-Fi Quick Start Guide</title>
+<meta name="description" content="Stellar Wi-Fi Quick Start Guide">
+<meta name="author" content="Pei Qing">
+<!--<link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">-->
+<!--<script src="http://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+<!--<script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>-->
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style >
+
+    <style type="text/css">
+        .embed-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
         }
-    </script>
+
+        .embed-container iframe, .embed-container object, .embed-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
 </head>
+
 <body>
-<!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="container">
-    <header id="luxbar" class="luxbar-fixed">
-        <input type="checkbox" style="display:none" class="luxbar-checkbox" id="luxbar-checkbox"/>
-        <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
-            <ul class="luxbar-navigation">
-                <li class="luxbar-header">
-                    <a href="#home" class="luxbar-brand">Stellar Wi-Fi Help</a>
-                    <label class="luxbar-hamburger luxbar-hamburger-doublespin"
-                           id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
-                </li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#Get Application">Get Application</a></li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#Install Equipment">Install Equipment</a></li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#iOS Instructions">IOS Instructions</a></li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#android_produce">Android Instructions</a></li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#Restore Factory Settings">Restore Factory Settings</a></li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#System Requirements">System Requirements</a></li>
-                <li class="luxbar-item" onclick="hideNav()"><a href="#Contact Us">Contact Us</a></li>
-            </ul>
-        </div>
-    </header>
-    <div class="row" id="home">
-        <!-- <div class="eight columns" style="margin-top: 25%"> -->
-        <article class="post">
-            <header class="post-header">
-                <h1 class="post-title"></h1>
 
-            </header>
-            <section class="post-content">
-                <div class="row">
-                    <img class="six columns" src="../images/system.png"/>
-                </div>
-                <h2 id="Introduction">Introduction</h2>
+<p><img src="./images/system.png" alt="system"></p>
 
-                <p>Stellar Wi-Fi uses the WiFi to control Sansi smart bulbs on, off, stepless brightness or color change. The bulb has eight built-in scenarios. You can also interact with the bulb through songs in the library.</p>
+<h1 id="toc_0">Overview</h1>
 
-                <h2 id="Get Application">Get Application</h2>
+<p>Stellar Wi-Fi  is capable to switch Sansi Smart Bulb on and off via Wi-Fi, as well as gradually changes density and change colors as you like. Moreover, there are 8 scenarios preset within the bulb each of which is an aesthetic design with reasonable color mix.</p>
 
-                <p>
-                    iOS users may search for "Stellar Wi-Fi" in the App Store.<br/>
-                    Android users may search for "Stellar Wi-Fi" in the Google Play Store.<br/>
-                    Or you can scan the QR code below.
-                </p>
+<h1 id="toc_1">Download</h1>
 
-                <div class="row">
-                    <img class="three columns" src="../../img/qr/stellarWiFi.png"/>
-                </div>
-                <br/>
+<p>iOS users may search for &quot;Stellar Wi-Fi&quot; in the App Store.
+Android users may search for &quot;Stellar Wi-Fi&quot; in the Google Play Store.
+Or you can scan the QR code below.</p>
 
-                <h2 id="Install Equipment">Install Equipment</h2>
+<p><img src="./images/stellarWiFi.png" alt="QR"></p>
 
-                <p>Install the LED bulb and turn it on.</p>
-                <img src="../images/install-bulb.png"/>
+<h1 id="toc_2">Installation</h1>
 
-                <h2 id="iOS Instructions">iOS Instructions</h2>
+<p>Install the LED bulb and turn it on.</p>
 
-                <h4 id = "register">1. Registered account</h4>
-                <li>Open the Stellar Wi-Fi application, click the<span style="color:red;"> sign up </span>button</li>
-                <li>Enter the correct valid mailbox and any valid login password，click the<span style="color:red;"> submit </span>button</li>
-                <div class="row">
-                    <img class="six columns" src="images/login.png" />
-                    <img class="six columns" src="images/register.png" />
-                </div>
+<p><img src="./images/install-bulb.png" alt="install"></p>
 
-                <h4 id="添加设备至Wifi">2. Add the device to the target WiFi</h4>
-                <li>Click on the top right corner<span style="color:red"> ＋ </span>button，select the<span style="color:red"> Add Bulb </span>button</li>
-                <div class="row">
-                        <img class="six columns" src="images/addBulb.png"/>
-                    </div>
-                <li>Make sure the light is on，click the<span style="color:red"> next</span></li>
-                <li>click the<span style="color:red"> Select WiFi </span>.It jumps to the phone<span style="color:red"> Settings -> WLAN </span>interface</li>
-                 <div class="row">
-                        <img class="six columns" src="images/findBulb.png"/>
-                        <img class="six columns" src="images/selectBulb.png"/>
-                    </div>
-                <li>Click to connect the bulb to the bulb light Wi-Fi network, and confirm the connection success</li>
-                <div style="color:red">Note:<br>The full color bulb which network name is similar to SLRGB*********.<br>The first connection may be a little longer.</div>
-                    <div class="row">
-                        <img class="six columns" src="images/connect-wifi-ios.png"/>
-                    </div>
-                <li>For the first time, you need to enter your WiFi name and password manually，click the<span style="color:red"> Join </span>button。This process takes about 30s</li>
-                    <div class="row">
-                        <img class="six columns" src="images/joinWiFi.png"/>
-                    </div>
-                    <li>When prompted, click return to the Stellar wi-fi application home page.</li>
-                    <div style="color:red">Note:<br>If the lamp is not found on multiple refresh lists, check to see if the phone is connected to the target WiFi or the above step error</div>
-                    <h4>3. Functional operation</h4>
-                    <h5><1> Colored lights</h5>
-                        <h5><2> Color temperature light：Now only color temperature control and countdown switch are supported</h5>
-                    <li>Color control</li>
-                    <div class="row">
-                        <img class="six columns" src="images/remote-control-rgb-ios.png"/>
-                    </div>
-                    <li>Color temperature control</li>
-                    <div class="row">
-                       <img class="six columns" src="images/remote-control-cct-ios.png"/>
-                    </div>
-                    <li>Music mode<br/>Click on the upper left corner of the music selection button, and select your favorite song, and then enjoy colorful lights changing with music.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/music-ios.png"/>
-                    </div>
-                    <li>Scene mode<br/>There are 8 different scene modes. Click to select different scenes, and enjoy colors changing with different frequency.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/remote-control-scene-ios.png"/>
-                    </div>
-                    <li>Countdown function</li>
-                    <div style="color:red">Note:<br>Software version > 2.0,The lights connect WiFi and the phone connect WiFi is the same WiFi</div>
-                    <div class="row">
-                        <img class="six columns" src="images/timeSelect.png"/>
-                        <img class="six columns" src="images/timeRun.png"/>
-                    </div>
-                    <li>Config<br/>In the Settings screen, the lamp can manipulate attributes:<br/>
-                        <ul>
-                            <li>Modify lamp name</li>
-                            <li>Countdown</li>
-                            <li>Switch the light WiFi</li>
-                            <li>Whether to allow remote control</li>
-                            <li>Reset lamp (hint: lamp will restore factory setting)</li>
-                        </ul>
-                        The lamp cann't manipulate attributes:<br>
-                        <ul>
-                            <li>Mac address of the lamp</li>
-                            <li>The type of lamp</li>
-                            <li>Software version of the lamp</li>
-                            <li>Hardware version of the lamp</li>
-                        </ul>
-                    </li>
-                    <div class="row">
-                        <img class="six columns" src="images/config.png"/>
-                    </div>
-                    <h4>Sidebar</h4>
-                    <div class="row">
-                        <img class="six columns" src="images/left.png"/>
-                    </div>
-                    <ul>
-                        <li>Portrait settings</li>
-                        <li>Nickname showed</li>
-                        <li>Online help</li>
-                        <li>Associated amazon</li>
-                        <li>Account and password Settings</li>
-                    </ul>
-                    <h5>1. Click the<span style="color:red"> icon </span>. Enter the personal information interface, click on the head to set the avatar, and click the nickname line to set the nickname</h5>
-                    <div class="row">
-                        <img class="six columns" src="images/leftInfo.png"/>
-                    </div>
-                    <h5>2. Click the<span style="color:red"> Config </span>. Enter the setup interface, reset the password and about us</h5>
-                     <div class="row">
-                        <img class="six columns" src="images/leftConfig.png"/>
-                    </div>
-                    <h5>3.（Alexa Function）<br/>Click the<span style="color:red"> Associated amazon </span>. Enter configuration of amazon function interface, implement voice control lamp<br>
-                    </h5>
-                    <div style="color:red">Note:
-                    <li>The App account and password are login status</li>
-                    <li>Amazon account registration or login</li>
-                    <li>Echo device support</li>
-                    </div>
-                    <div class="row">
-                        <img class="six columns" src="images/remote-Alexa-ios.png"/>
-                    </div>
-                    <h4>Group Operations</h4>
-                    <li>Add the group<br/>click on the upper right corner<span style="color:red"> ＋ </span>button,click the<span style="color:red"> Add Group </span>Enter a group name and select the device to add a new group</li>
-                    <div style="color:red">Note:<br>A device can only be added to a group, and if the device in another group is selected, the device will be removed from the original group</div>
-                    <div class="row">
-                        <img class="six columns" src="images/remote-add-ios.png"/>
-                        <img class="six columns" src="images/remote-group-add-ios.png"/>
-                        <img class="six columns" src="images/remote-group-ios.png"/>
-                    </div>
-                    <li>Edit the group<br/>Click the upper right corner of the interface<span style="color:red"> Edit </span>button. Enter the edit group interface, modify the group name, and add and delete the device in the group.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/remote-group-set-ios.png"/>
-                    </div>
+<h1 id="toc_3">APP  Guidance</h1>
 
+<h2 id="toc_4">1. Register</h2>
 
+<ol>
+<li>Open the Stellar Wi-Fi application, and then click the <strong><em>sign up</em></strong> button.</li>
+</ol>
 
+<p><img src="./images/login.PNG" alt="login"></p>
 
-				<!-- android
-				<h2 id="android_produce">Android Instructions</h2>
+<ol>
+<li>Enter the correct valid mailbox and any valid login password，and then click the <strong><em>submit</em></strong> button.</li>
+</ol>
 
+<p><img src="./images/register.PNG" alt="login"></p>
 
-                <h4 id="添加设备至Wifi-Andriod">1. Add device to WiFi</h4>
-                <ol>
-                    <li>Click the <span style="color: red">+</span> button on the top right corner，and then click the <span style="color: red">add bulb</span> button</li>
-                    <div class="row">
-                        <img  class="six columns" src="images/android/en/add_bulb.jpg"/>
-                    </div>
+<h2 id="toc_5">2. Account Settings</h2>
 
-                    <li>Make sure the bulb is lighten, and then click the <span style="color: red"> next </span> button</li>
-                    <div class="row">
-                        <img  class="six columns" src="images/android/en/next.jpg"/>
-                    </div>
+<ul>
+<li>Click the avatar on the side bar to enter the account settings page in which shows the user information, such as mail box, avatar and nicknames. The avatar can also be changed in this page.</li>
+</ul>
 
-                    <li>Enter the setting page, and click <span style="color: red">join WiFi </span> button into the mobile wireless network setting page, select and connect the bulb wifi (named SLRG B******), please make sure connect it successfully!</li>
-                    <div class="row">
-                        <img  class="six columns" src="images/android/en/connect.jpg"/>
-                        <img  class="six columns" src="images/android/en/wifi_setting.jpg"/>
-                    </div>
+<p><img src="./images/leftMenu.PNG" alt="login">
+<img src="./images/leftInfo.PNG" alt="login"></p>
 
-                    <li>Select the target wifi, input right password, and then click the<span style="color: red"> Save </span> button to add the bulb to targrt wifi. It may cost about one minute and return to homepage if succeed.</li>
-                    <div class="row">
-                        <img  class="six columns" src="images/android/en/waiting.jpg"/>
-                    </div>
-                    <li>Switch to the wifi you selected right now if it prompts "connect succeed", and you will find the bulb in the list on homepage. (Please retry the procedure above if didn't find the bulb after reflash the list.)</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/success.jpg"/>
-                    </div>
-                </ol>
+<ul>
+<li>Click the <strong><em>Settings</em></strong> on the side bar to enter the settings page in which you can login, logout, change password and shows the <strong><em>About Us</em></strong> information.</li>
+</ul>
 
+<p><img src="./images/leftReset.PNG" alt="login">
+<img src="./images/resetPassword.PNG" alt="login"></p>
 
-                <h4 id="游客模式">2. Tourist Mode</h4>
-                <p>
-                    The tourist mode means that the user uses Stellar Wi-Fi without logging in, and the user can only control the bulbs that have been added to the current WiFi. The user enters the mode through the "exit registration" of the sidebar and selects the tourist mode in the pop-up login interface.
-                </p>
-                <div class="row">
-                    <img class="six columns" src="images/android/en/tourist.jpg"/>
-                    &lt;!&ndash; <img class="six columns" src="images/menu-tourist-ios.png"/> &ndash;&gt;
-                </div>
+<ul>
+<li>In the <strong><em>About Us</em></strong> page, you can goto the official site or contact us by email.</li>
+</ul>
 
-                <ol>
-                    <li>Enter homepage</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/home.jpg"/>
-                    </div>
-                    <li>Click the light bulb to enter the control interface. The color control interface shows if it is a RGB bulb, while the CCT interface shows if it is a color temperature bulb.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/localRGB.png"/>
-                        <img class="six columns" src="images/android/en/localCCT.png"/>
-                    </div>
-                    <li>Music mode (For RGB bulb only)<br/>Click on the upper left corner of the music selection button, and select your favorite song, and then enjoy colorful lights changing with music.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/localMusic.png"/>
-                    </div>
-                    <li>Scene Mode (For RGB bulb only) <br/>There are 8 different scene modes. Click to select different scenes, and enjoy light colors changing with different frequency.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/localScene.png"/>
-                    </div>
-                    <li>Countdown Mode (Software version > 2.0 only) <br>Click the button on the right side of the switch button on the control interface (If you this button is unavailable, please make sure the device software version is the latest one. If not, please update your device software).</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/countDown_2.jpg"/>
-                    </div>
-                    <li>Modefy name<br/>Click the icon on the top right corner and enter the setting page, where you can change bulb name and get more information.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/change.jpg"/>
-                        <img class="six columns" src="images/android/en/change_name.jpg"/>
-                    </div>
-                    <li>Add into other WiFi<br/>Click the <span style="color: red">WLAN</span> column into the wifi page where you can add the bulb into other wifi for remote control.
-                    </li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/add_other_wifi.jpg"/>
+<p><img src="./images/aboutUs.PNG" alt="login"></p>
 
-                    </div>
-                </ol>
+<h2 id="toc_6">3. Adding  Device to Wi-Fi</h2>
 
+<p>Follow the instructions below to proceed adding device. Alternatively, watch the training video.</p>
 
-                <h4 id="loginMode">3. Login Mode</h4>
-                <p>Login Mod means you can use our Stellar Wifi APP with you own account. In login mode, Alexa function is available.</p>
-                <ol>
-                    <li>Register<br>Enter the login page, and click the <span style="color: red;">Sign up</span> button if you haven't registerd.
-                    </li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/login.jpg"/>
-                        <img class="six columns" src="images/android/en/register.jpg">
-                    </div>
-                    <li>Login<br/>Type your username and password and then click the <span style="color: red;">Login in</span> button.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/account.jpg"/>
-                       &lt;!&ndash;  <img class="six columns" src="images/android/zh/loginMain.png"/> &ndash;&gt;
-                    </div>
+<h3 id="toc_7">Instruction for iOS User</h3>
 
-                    <li>Connect to Amazon (Alexa) <br/> Click the <span style="color: red">Binding amazon</span> button in the side menu, then click [Binding amazon] button. Follow the Amazon instructions to complete the operation so that you can associate your Stellar account with your Amazon account. Now you can control your bulbs by voice.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/en_binding_amazon.png"/>
-                    </div>
-
-                    <li>Other skills are the same as Tourist Mode. The demonstration of single control and group control are as follows.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/single.jpg"/>
-                        <img class="six columns" src="images/android/en/group.jpg"/>
-                    </div>
-                </ol>
-
-
-                <h4 id="侧边栏头像-Andriod">Sidebar</h4>
-                <p>Personal information</p>
-                <ol>
-                    <li>Cilck the avatar of the sidebar for your personal information setting. Make sure that you have logined first, otherwise it may turn to the login page.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/sidebar.jpg"/>
-                        <img class="six columns" src="images/android/en/personal.jpg"/>
-                    </div>
-
-                    <li>Click the avatar Column to set your avatar.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/avatar.jpg"/>
-                    </div>
-                    <li>Click the avatar Nickname to modify your nickname.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/nickname.png"/>
-                    </div>
-                </ol>
--->
-
-
-                <h2 id="android_produce">Android Instructions</h2>
-
-                <h4 id="登录模式-Andriod">Login</h4>
-                <p>Login in using login mode refers to the user Stellar Wifi, the login mode, you can use Alexa function</p>
-                <ol>
-                    <li>Register<br>Open the application into the login screen, if you haven't already registered, please click<span style="color: red;">Registered account</span>Button, skip to the registration screen type in valid email address and password to register, register after a successful return to the login screen to login
-                    </li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/an_en_login.png"/>
-                        <img class="six columns" src="images/android/en/an_en_register.png">
-                    </div>
-                    <li>Login<br/>Open the application into the login page, if you already have a registered account, enter the user name and password, then click<span style="color: red;">Login</span>Button to login</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/an_en_login.png"/>
-                        <!--  <img class="six columns" src="images/android/zh/loginMain.png"/> -->
-                    </div>
-
-                </ol>
-
-                <h4 id="添加设备至Wifi-Andriod">Add device to WiFi</h4>
-                <ol>
-                    <li>Click the <span style="color: red">+</span> button on the top right corner，and then click the <span style="color: red">add bulb</span> button</li>
-                    <div class="row">
-                        <img  class="six columns" src="images/android/en/an_en_add_device.png"/>
-                    </div>
-
-                    <li>Make sure the bulb is lighten, and then click the <span style="color: red"> next </span> button</li>
-                    <div class="row">
-                        <img  class="six columns" src="images/android/en/next.jpg"/>
-                    </div>
-
-                    <li>Enter the setting page, and click <span style="color: red">join WiFi </span> button into the mobile wireless network setting page, select and connect the bulb wifi (named SLRG B******), please make sure connect it successfully!</li>
-                    <div class="row">
-                        <img  class="six columns" src="images/android/en/connect.jpg"/>
-                        <img  class="six columns" src="images/android/en/wifi_setting.jpg"/>
-                    </div>
-
-                    <li>Select the target wifi, input right password, and then click the<span style="color: red"> Save </span> button to add the bulb to targrt wifi. It may cost about one minute and return to homepage if succeed.</li>
-                    <div class="row">
-                        <img  class="six columns" src="images/android/en/waiting.jpg"/>
-                    </div>
-                    <li>Switch to the wifi you selected right now if it prompts "connect succeed", and you will find the bulb in the list on homepage. (Please retry the procedure above if didn't find the bulb after reflash the list.)</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/success.jpg"/>
-                    </div>
-                </ol>
-
-
-                <h4 id="游客模式-Andriod">Operating the lamp</h4>
-                <p>
-                    Click list any bulb into the control interface, the lamp color temperature, brightness, color and control of the scene.
-                </p>
-
-                <ol>
-                    <li>Enter the lamp list main interface</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/an_en_device_list.png"/>
-                    </div>
-                    <li>Single control, for example, click list any bulb into the control interface.
-                        If they are colored lights are display color control interface, if it is color temperature light display color temperature control interface, group accused of similar</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/an_en_rgb.png"/>
-                        <img class="six columns" src="images/android/en/an_en_cct.png"/>
-                    </div>
-
-                    <li>Scene Mode (For RGB bulb only) <br/>There are 8 different scene modes. Click to select different scenes, and enjoy light colors changing with different frequency.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/an_en_scene.png"/>
-                    </div>
-
-                    <li>Modefy name<br/>Click the icon on the top right corner and enter the setting page, where you can change bulb name and get more information.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/an_en_cct.png"/>
-                        <img class="six columns" src="images/android/en/an_en_rename.png"/>
-                    </div>
-                    <li>Add into other WiFi<br/>Click the <span style="color: red">WLAN</span> column into the wifi page where you can add the bulb into other wifi for remote control.
-                    </li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/add_other_wifi.jpg"/>
-
-                    </div>
-                </ol>
-
-                <h4 id="侧边栏头像-Andriod">Sidebar</h4>
-                <p>Personal information</p>
-                <ol>
-                    <li>Cilck the avatar of the sidebar for your personal information setting. Make sure that you have logined first, otherwise it may turn to the login page.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/an_en_sliding.png"/>
-                        <img class="six columns" src="images/android/en/personal.jpg"/>
-                    </div>
-
-                    <li>Click the avatar Column to set your avatar.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/avatar.jpg"/>
-                    </div>
-                    <li>Click the avatar Nickname to modify your nickname.</li>
-                    <div class="row">
-                        <img class="six columns" src="images/android/en/an_en_nickname.png"/>
-                    </div>
-                </ol>
-
-
-                <h2 id="Restore Factory Settings">Restore Factory Settings</h2>
-                <ol>
-                    <li>Turn off the bulb and wait for 20 seconds</li>
-                    <li>Repeat the following operations for 3 times.</li>
-                    <ol>
-                        <li>Turn on the bulb for 5 seconds.</li>
-                        <li>Turn off the bulb for 5 seconds.</li>
-                    </ol>
-                    <li>Turn on the bulb for the 4th time and wait for 10 seconds. The bulb will now restore the factory
-                        settings. It will change colors according to: slow <font color="red">red</font> → slow <font
-                            color="green">green</font> → slow <font color="blue">blue</font> → <font color=#FFDEAD>warm
-                            white</font> and then enter Wi-Fi access point mode.
-                    </li>
-                </ol>
-
-                <h2 id="System Requirements">System Requirements</h2>
-                <p>
-                    Stellar Wi-Fi runs on the following devices:
-                </p>
-                <ol>
-                    <li>iOS devices running iOS 8.0+</li>
-                    <li>Android devices running Android 4.2+</li>
-                </ol>
-                <p>
-                    One or more Sansi Smart LED bulb.
-                </p>
-
-                <h2 id="Contact Us">Contact Us</h2>
-                <p>
-                    For technical support, please contact us via <a href="mailto:service@sansitech.us?subject=Stellar Help">service@sansitech.us</a>.
-                </p>
-            </section>
-            <footer>
-                <p>The latest version on May 17, 2017.</p>
-            </footer>
-        </article>
-        <!-- </div> -->
-    </div>
+<ol>
+<li>Click <strong><em>＋</em></strong>, and then click on <strong><em>Add Bulb</em></strong>.</li>
+<li>Make sure the light is on, and then click <strong><em>Next</em></strong>.</li>
+<li>Click <strong><em>Select Wi-Fi</em></strong> to select the Wi-Fi in the <strong><em>Settings</em></strong> - <strong><em>WLAN</em></strong> page of the iOS.</li>
+<li>Click and connect to the access point of the smart bulb, which may be shown as SLRGB <em>. Please wait as the first connection may takes a little longer. Make sure it&#39;s sucessfully connected and go back to the Stellar Wi-Fi.</em></li>
+<li>For the first connection of Stellar Wi-Fi to the current Wi-Fi, SSID and password are required to be input manually. After clicking <em>Join</em>, you may need to wait for approximately 30 seconds. </li>
+<li>Select <strong><em>Settings</em></strong> - <strong><em>WLAN</em></strong> to enter the Wi-Fi page and select to join the target WiFi after giving the correct Wi-Fi name and password.</li>
+</ol>
+<div class='embed-container'>
+    <iframe src='https://player.vimeo.com/video/242506719' frameborder='0' webkitAllowFullScreen mozallowfullscreen
+            allowFullScreen></iframe>
 </div>
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<h3 id="toc_8">Instruction for Android User</h3>
+
+<ol>
+<li>Click <strong><em>＋</em></strong>, and then click on <strong><em>Add Bulb</em></strong>.</li>
+<li>Make sure the light is on, and then click <strong><em>Next</em></strong>.</li>
+<li>In the setting navigation page, click <strong><em>Join Wi-Fi</em></strong> to enter the wireless network setting page and then click and connect to the access point of the smart bulb, which may be shown as SLRGB *.  Make sure it&#39;s successfully connected and then the system will return to Stellar Wi-Fi.</li>
+<li>Select the target Wi-Fi and give password and then click <strong><em>Save</em></strong> to add the device to the network. It may take one minute approximately before successfully connecting and back to the home screen.</li>
+<li>After connections has been made, switch to the Internet Wi-Fi. The bulb newly added would be found in the list of home screen of Stellar Wi-Fi. Repeat the procedure above if the bulb didn&#39;t show up after refreshing repeatedly.
+</li>
+</ol>
+<div class='embed-container'>
+    <iframe src='https://player.vimeo.com/video/242537730' frameborder='0' webkitAllowFullScreen mozallowfullscreen
+            allowFullScreen></iframe>
+</div>
+
+<h2 id="toc_15">4. Update</h2>
+<p>Follow the instructions below to update the device. Some specific device may need to be updated several times.</p>
+
+<ol>
+<li>Click <strong><em>＋</em></strong>, and then click on <strong><em>Add Bulb</em></strong>.</li>
+<li>Make sure the light is on, and then click <strong><em>Next</em></strong>.</li>
+<li>Click <strong><em>Select Wi-Fi</em></strong> to select the Wi-Fi in the <strong><em>Settings</em></strong> - <strong><em>WLAN</em></strong> page of the IOS.</li>
+<li>Click and connect to the access point of the smart bulb, which may be shown as SLRGB *. </li>
+<li><p>Click <strong><em>Update</em></strong>.
+<img src="./images/update.PNG" alt="login"></p>
+
+<p><strong>Tips</strong>: If you found the progress bar stuck, click <strong><em>cancel</em></strong> and retry.
+<img src="./images/updateProgress.PNG" alt="login"></p></li>
+<li><p>Add device to Wi-Fi following instructions in Chapter 2 after a successful update.
+<img src="./images/updateSuccess.PNG" alt="login"></p></li>
+</ol>
+
+<h2 id="toc_9">5. Device Control</h2>
+
+<p>Devices can be controlled either individually or grouped. In the Simplex mode, color, color temperature and scenario can be assigned while in the Group mode, only color and scenario can be changed. However, for the Monochrome bulb (CCT), the color temperature is the only configurable item. In the Group mode, the device type and functions may have some little differences with that in the Simplex mode.</p>
+
+<p><img src="./images/remote-main-ios.png" alt="login">
+<img src="./images/remote-group-ios.png" alt="login"></p>
+
+<ul>
+<li>Color</li>
+</ul>
+
+<p><img src="./images/remote-control-rgb-ios.png" alt="login"></p>
+
+<ul>
+<li>Color Temperature</li>
+</ul>
+
+<p><img src="./images/remote-control-cct-ios.png" alt="login"></p>
+
+<ul>
+<li>Scenario</li>
+</ul>
+
+<p><img src="./images/remote-control-scene-ios.png" alt="login"></p>
+
+<ul>
+<li>Device information</li>
+</ul>
+
+<p><img src="./images/set-ios.png" alt="login"></p>
+
+<ul>
+<li>Group Information</li>
+</ul>
+
+<p><img src="./images/remote-group-set-ios.png" alt="login"></p>
+
+<p><strong><em>Note:</em></strong> One device can only belong to one group at the same time. If a device was added to another group, it will be removed from the previous group.</p>
+
+<h2 id="toc_10">6. Accessing to Alexa  Voice Service</h2>
+
+<p>Sansi Smart Bulb can be accessed Alexa and controller by voice command.</p>
+
+<ol>
+<li>Click <strong><em>Associate to Amazon</em></strong> in the side bar.
+<img src="./images/alexaNormal.PNG" alt="login"></li>
+<li>Click <strong><em>Confirm</em></strong> and bind your Amazon account as per the prompts.
+<img src="./images/alexaSuccess.PNG" alt="login">
+<img src="./images/alexaFinish.PNG" alt="login"></li>
+<li>Goto the Alexa App and click <strong><em>Skill</em></strong> in the side bar. Search for <strong>Stellar Wifi</strong> and click to enable the service.</li>
+</ol>
+
+<h2 id="toc_11">7. Alexa Instruction</h2>
+
+<p>There are four buttons on the Echo Dot. One is the mute button, which is used to  stop using voice commands temporally. The + and - button is for volume control while the last dot button is a function button. When it is pressed and released in a short time, the Alexa will be waken up. When it is pressed and held, the Echo Dot will enter a settings mode. When it is pressed while the blue ring lights, the current command will be canceled. Before giving orders, say &quot;Alexa&quot; to wake her up or press the dot button shortly. Always command when the blue rings lights.</p>
+
+<p>Command list:</p>
+
+<ul>
+<li>Turn on/ off the light: ***Alexa, Turn on/off [#name]. *** For examples, say <strong><em>Alexa, Turn on Office.</em></strong> to turn on the two office bulbs. Alternatively, press the dot button and say <strong><em>Turn on Office</em></strong>.</li>
+<li>Brightness: <strong><em>Alexa, Set [#name] to [#number] percent.</em></strong> For an example, say <strong><em>Alexa, Set Office Bulb One to sixty percent</em></strong>.</li>
+<li>Color：***Alexa, Set [#name] to [#color]. * **For an example, say <strong><em>Alexa, Set Office Bulb One to green.</em></strong></li>
+</ul>
+
+<p>The supporting colors are listed below.</p>
+
+<blockquote>
+<p>Blue
+Crimson
+Cyan
+Fuchsia
+Gold
+Green
+Lavender
+Lime
+Magenta
+Orange
+Pink
+Purple
+Red
+Salmon
+Sky Blue
+Teal
+Turquoise
+Violet
+Yellow</p>
+</blockquote>
+
+<p>Refer to the official site for more details of the controls on Alexa.</p>
+
+<p><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=201749260">https://www.amazon.com/gp/help/customer/display.html?nodeId=201749260</a></p>
+
+<p>Refer to the official site for help of the Amazon Alexa.</p>
+
+<p><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=201952240">https://www.amazon.com/gp/help/customer/display.html?nodeId=201952240</a></p>
+
+<h1 id="toc_12">Restore</h1>
+
+<ol>
+<li><p>Turn off the bulb and wait for 10 seconds.</p></li>
+<li><p>Repeat the following operations for 3 times.</p>
+
+<p>A. Turn on the bulb.</p>
+
+<p>B. Turn off the bulb as the bulb lights.</p>
+
+<p>C. Wait for 4 seconds.</p></li>
+<li><p>Turn on the bulb again after turning it on and off for three times and wait for 30 seconds.
+And the bulb will restore to the factory settings which changes colors from slow red - slow green - slow blue to warm white and then enter the Wi-Fi access point mode.</p></li>
+</ol>
+
+<h1 id="toc_13">System Requirements</h1>
+
+<p>Besides one or more Sansi Smart LED Bulbs, following devices are needed for running Stellar Wi-Fi.</p>
+
+<ol>
+<li>iOS devices running iOS 8.0+</li>
+<li>Android devices running Android 4.2+</li>
+</ol>
+
+<h1 id="toc_14">Contact Us</h1>
+
+<p>For the latest product information of the smart bulb, goto </p>
+
+<p><a href="http://www.sansitech.com">http://www.sansitech.com</a>；</p>
+
+<p>For technical support, please contact us via </p>
+
+<p><a href="mailto:service@sansitech.us?subject=Stellar%20Help">service@sansitech.us</a>。</p>
+
+
+
+
 </body>
+
 </html>
