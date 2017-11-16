@@ -2,23 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24543577-8942-4b79-af47-7f9e54063b07" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/help/images/install-bulb.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/addBulb.PNG" afterPath="$PROJECT_DIR$/help/zhs/images/addBulb.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/joinNetwork.PNG" afterPath="$PROJECT_DIR$/help/zhs/images/joinNetwork.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/leftInfo.PNG" afterPath="$PROJECT_DIR$/help/zhs/images/leftInfo.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/leftMenu.PNG" afterPath="$PROJECT_DIR$/help/zhs/images/leftMenu.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/leftReset.PNG" afterPath="$PROJECT_DIR$/help/zhs/images/leftReset.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/login.PNG" afterPath="$PROJECT_DIR$/help/zhs/images/login.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/register.PNG" afterPath="$PROJECT_DIR$/help/zhs/images/register.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/remote-control-cct-ios.png" afterPath="$PROJECT_DIR$/help/zhs/images/remote-control-cct-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/remote-control-rgb-ios.png" afterPath="$PROJECT_DIR$/help/zhs/images/remote-control-rgb-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/remote-control-scene-ios.png" afterPath="$PROJECT_DIR$/help/zhs/images/remote-control-scene-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/remote-group-add-ios.png" afterPath="$PROJECT_DIR$/help/zhs/images/remote-group-add-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/remote-group-ios.png" afterPath="$PROJECT_DIR$/help/zhs/images/remote-group-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/remote-group-set-ios.png" afterPath="$PROJECT_DIR$/help/zhs/images/remote-group-set-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/remote-main-ios.png" afterPath="$PROJECT_DIR$/help/zhs/images/remote-main-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/zhs/images/set-ios.png" afterPath="$PROJECT_DIR$/help/zhs/images/set-ios.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/account.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/addDevice_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/addDevice_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/addDevice_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/addDevice_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/addGroup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/add_bulb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/add_other_wifi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/an_en_add_device.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/an_en_cct.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/an_en_device_list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/an_en_login.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/an_en_nickname.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/an_en_register.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/an_en_rename.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/an_en_rgb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/an_en_scene.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/an_en_sliding.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/change.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/change_name.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/config.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/connect.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/countDown_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/countDown_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/editDevice.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/en_add_wifi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/en_binding_amazon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/en_light_item.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/en_login.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/en_search_wifi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/group.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/group.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/home.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/localCCT.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/localMusic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/localRGB.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/localScene.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/login.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/loginMain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/next.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/nickname.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/noLoginMain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/personal.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/register.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/remoteCCT.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/remoteRGB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/remoteRGB.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/remoteScene.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/sidebar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/single.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/success.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/tourist.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/waiting.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/android/en/wifi_setting.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/config.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/findBulb.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/joinWiFi.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/left.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/leftConfig.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/music-ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/search-ios-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/help/en/images/selectBulb.PNG" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/addBulb.PNG" afterPath="$PROJECT_DIR$/help/en/images/addBulb.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/connect-wifi-ios.png" afterPath="$PROJECT_DIR$/help/en/images/connect-wifi-ios.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/connectRight.PNG" afterPath="$PROJECT_DIR$/help/en/images/connectRight.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/leftInfo.PNG" afterPath="$PROJECT_DIR$/help/en/images/leftInfo.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/login.PNG" afterPath="$PROJECT_DIR$/help/en/images/login.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/register.PNG" afterPath="$PROJECT_DIR$/help/en/images/register.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-Alexa-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-Alexa-ios.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-add-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-add-ios.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-control-cct-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-control-cct-ios.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-control-rgb-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-control-rgb-ios.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-control-scene-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-control-scene-ios.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-group-add-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-group-add-ios.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-group-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-group-ios.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-group-set-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-group-set-ios.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/remote-main-ios.png" afterPath="$PROJECT_DIR$/help/en/images/remote-main-ios.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/timeRun.PNG" afterPath="$PROJECT_DIR$/help/en/images/timeRun.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/en/images/timeSelect.PNG" afterPath="$PROJECT_DIR$/help/en/images/timeSelect.PNG" />
     </list>
     <ignored path="StellarSite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,16 +103,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/help/zhs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#li#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="298">
+              <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_md - En.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/help/en/index_md - En.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7393">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,6 +168,7 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/help/zhs/index.html" />
         <option value="$PROJECT_DIR$/help/en/index.html" />
+        <option value="$PROJECT_DIR$/help/en/index_md - En.html" />
       </list>
     </option>
   </component>
@@ -115,8 +186,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1271" />
-    <option name="y" value="156" />
+    <option name="x" value="539" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="993" />
   </component>
@@ -136,6 +207,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,10 +266,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StellarSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StellarSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="help" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -653,6 +742,7 @@
       <workItem from="1507526268774" duration="621000" />
       <workItem from="1510108036843" duration="33000" />
       <workItem from="1510117715249" duration="4176000" />
+      <workItem from="1510794406718" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1502939965328</created>
@@ -665,10 +755,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65896000" />
+    <option name="totallyTimeSpent" value="66528000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1271" y="156" width="1920" height="993" extended-state="0" />
+    <frame x="539" y="23" width="1920" height="993" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -684,7 +775,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21991481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22204472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958263" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -756,13 +847,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/help/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1004,20 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="797">
           <caret line="78" column="75" lean-forward="false" selection-start-line="78" selection-start-column="75" selection-end-line="78" selection-end-column="75" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#2;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#3;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#4;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#4;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#6;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#13;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#1;n#ol#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1028,13 +1098,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/help/zhs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#li#0;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#1;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#section#0;n#article#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="298">
+          <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/en/index_md - En.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7393">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
