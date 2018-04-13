@@ -1,87 +1,74 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
-    <title>download</title>
+    <title>Stellar Wi-Fi Download</title>
+    <style>
+        h4 {
+            color: #000
+        }
+    </style>
+
+</head>
+
+<body>
     <script type="text/javascript">
         init();
-
-function init(){
-    currentLang = navigator.language;   //判断除IE外其他浏览器使用语言
-    if(!currentLang){//判断IE浏览器使用语言
-
-        currentLang = navigator.browserLanguage;
-    }
-    //alert('language:'+currentLang);
-
-        // 获取终端的相关信息
-        var Terminal = {
-            // 辨别移动终端类型
-            platform : function(){
-                var u = navigator.userAgent, app = navigator.appVersion;
-                return {
-                    // android终端或者uc浏览器
-                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1,
-                    // 是否为iPhone或者QQHD浏览器
-                    iPhone: u.indexOf('iPhone') > -1,
-                    // 是否iPad
-                    iPad: u.indexOf('iPad') > -1,
-
-                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
-                    webKit: u.indexOf('AppleWebKit') > -1,
-
-                    webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
-                };
-            }(),
-            // 辨别移动终端的语言：zh-cn、en-us、ko-kr、ja-jp...
-            language : (navigator.browserLanguage || navigator.language).toLowerCase()
-        }
-
-        // 根据不同的终端，跳转到不同的地址
-        var theUrl = 'stellar-wifi.apk';
-        var iPadUrl = 'https://itunes.apple.com/us/app/stellar-wi-fi/id965055647?ls=1&mt=8';
-
-        if(Terminal.platform.android){
-            if (currentLang == 'zh-CN') {
-                //alert('zh-CN');
-                var ua = navigator.userAgent.toLowerCase();
-                var isWeixin = ua.indexOf('micromessenger') != -1;
-                if (isWeixin) {
-                    document.head.innerHTML = '<title>抱歉，出错了</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/connect/zh_CN/htmledition/style/wap_err1a9853.css">';
-                    document.body.innerHTML = '<div class="page_msg"><div class="inner"><span class="msg_icon_wrp"><i class="icon80_smile"></i></span><div class="msg_content"><h4>请在点击右上角在浏览器中打开链接</h4></div></div></div>';
-                    return true;
-                }
-            }else{
-                //alert('en');
-                theUrl = 'https://play.google.com/store/apps/details?id=com.sansi.stellarWiFi';
-            };
-        }else if(Terminal.platform.iPhone || Terminal.platform.ios || Terminal.platform.iPad || Terminal.platform.webKit){
-            theUrl = 'https://itunes.apple.com/us/app/stellar-wi-fi/id965055647?ls=1&mt=8';
-        }/*else if(Terminal.platform.iPad){
-            // 还可以通过language，区分开多国语言版
-            switch(Terminal.language){
-                case 'en-us':
-                    theUrl = iPadUrl;
-                    break;
-                case 'ko-kr':
-                    theUrl = iPadUrl;
-                    break;
-                case 'ja-jp':
-                    theUrl = iPadUrl;
-                    break;
-                default:
-                    theUrl = iPadUrl;
+        // document.head.innerHTML = '<title>Stellar Wi-Fi下载</title>' +
+        //                     '<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">' +
+        //                     '<link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/connect/zh_CN/htmledition/style/wap_err1a9853.css">';
+        function init() {
+            currentLang = navigator.language;   //判断除IE外其他浏览器使用语言
+            if (!currentLang) {//判断IE浏览器使用语言
+                currentLang = navigator.browserLanguage;
             }
-        }*/
+            // 获取终端的相关信息
+            var Terminal = {
+                // 辨别移动终端类型
+                platform: function () {
+                    var u = navigator.userAgent, app = navigator.appVersion;
+                    return {
+                        // android终端或者uc浏览器
+                        android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1,
+                        // 是否为iPhone或者QQHD浏览器
+                        iPhone: u.indexOf('iPhone') > -1,
+                        // 是否iPad
+                        iPad: u.indexOf('iPad') > -1,
 
-        location.href = theUrl;
-}
-    
+                        ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                        webKit: u.indexOf('AppleWebKit') > -1,
+
+                        webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+                    };
+                }(),
+                // 辨别移动终端的语言：zh-cn、en-us、ko-kr、ja-jp...
+                language: (navigator.browserLanguage || navigator.language).toLowerCase()
+            }
+
+            // 根据不同的终端，跳转到不同的地址
+            var finalUrl = 'stellar-wifi.apk';
+            var iPadUrl = 'https://itunes.apple.com/us/app/stellar-wi-fi/id965055647?ls=1&mt=8';
+
+            if (Terminal.platform.android) {
+                if (currentLang == 'zh-CN') {
+                    var ua = navigator.userAgent.toLowerCase();
+                    var isWeixin = ua.indexOf('micromessenger') != -1;
+                    //判断是否在微信打开
+                    if (isWeixin) {
+                        // document.body.innerHTML = '<div class="page_msg"><div class="inner"><span class="msg_icon_wrp"><i class="icon80_smile"></i></span><div class="msg_content"><h4>请在点击右上角在浏览器中打开链接</h4></div></div></div>';
+                        alert('请点击右上角并选择在浏览器中打开链接');
+                        return true;
+                    }
+                } else {
+                    finalUrl = 'https://play.google.com/store/apps/details?id=com.sansi.stellarWiFi';
+                };
+            } else if (Terminal.platform.iPhone || Terminal.platform.ios || Terminal.platform.iPad || Terminal.platform.webKit) {
+                finalUrl = 'https://itunes.apple.com/us/app/stellar-wi-fi/id965055647?ls=1&mt=8';
+            }
+            location.href = finalUrl;
+        }
     </script>
-</head>
-<body>
-    <!--
-
-    -->
 </body>
+
 </html>
