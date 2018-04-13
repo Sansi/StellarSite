@@ -47,8 +47,7 @@
             }
 
             // 根据不同的终端，跳转到不同的地址
-            var finalUrl = 'stellar-wifi.apk';
-            var iPadUrl = 'https://itunes.apple.com/us/app/stellar-wi-fi/id965055647?ls=1&mt=8';
+            var finalUrl = '';
 
             if (Terminal.platform.android) {
                 if (currentLang == 'zh-CN') {
@@ -59,6 +58,8 @@
                         // document.body.innerHTML = '<div class="page_msg"><div class="inner"><span class="msg_icon_wrp"><i class="icon80_smile"></i></span><div class="msg_content"><h4>请在点击右上角在浏览器中打开链接</h4></div></div></div>';
                         alert('请点击右上角并选择在浏览器中打开链接');
                         return true;
+                    }else{
+                        finalUrl = 'http://www.sansistellar.com/app/stellar-wifi.apk'
                     }
                 } else {
                     finalUrl = 'https://play.google.com/store/apps/details?id=com.sansi.stellarWiFi';
