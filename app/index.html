@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>download</title>
     <script type="text/javascript">
+        init();
 
-
+function init(){
     currentLang = navigator.language;   //判断除IE外其他浏览器使用语言
     if(!currentLang){//判断IE浏览器使用语言
 
@@ -47,7 +48,7 @@
                 var isWeixin = ua.indexOf('micromessenger') != -1;
                 if (isWeixin) {
                     document.head.innerHTML = '<title>抱歉，出错了</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/connect/zh_CN/htmledition/style/wap_err1a9853.css">';
-                    document.body.innerHTML = '<div class="page_msg"><div class="inner"><span class="msg_icon_wrp"><i class="icon80_smile"></i></span><div class="msg_content"><h4>请在微信客户端打开链接</h4></div></div></div>';
+                    document.body.innerHTML = '<div class="page_msg"><div class="inner"><span class="msg_icon_wrp"><i class="icon80_smile"></i></span><div class="msg_content"><h4>请在点击右上角在浏览器中打开链接</h4></div></div></div>';
                     return true;
                 }
             }else{
@@ -74,6 +75,8 @@
         }*/
 
         location.href = theUrl;
+}
+    
     </script>
 </head>
 <body>
