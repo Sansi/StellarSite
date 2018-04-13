@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>download</title>
     <script type="text/javascript">
+        init();
 
-
+function init(){
     currentLang = navigator.language;   //判断除IE外其他浏览器使用语言
     if(!currentLang){//判断IE浏览器使用语言
 
@@ -74,6 +75,8 @@
         }*/
 
         location.href = theUrl;
+}
+    
     </script>
 </head>
 <body>
