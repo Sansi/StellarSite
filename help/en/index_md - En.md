@@ -25,7 +25,7 @@ Install the LED bulb and turn it on.
 
 1. Open the Stellar Wi-Fi application, and then click the ***sign up*** button.
 
-![login](./images/login.PNG)
+![login](./images/Login.png)
 
 2. Enter the correct valid mailbox and any valid login password，and then click the ***submit*** button.
 
